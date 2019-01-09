@@ -1,0 +1,27 @@
+= Use Case Analysis
+Richard Conway <richard.conway@telespazio.com>
+v0.1, 09/01/2019
+:hardbreaks:
+:sectnums:
+:toc: preamble
+:toclevels: 4
+:toc-title: Contents
+:description: Use Case Analysis for the Common Architecture
+:keywords: common architecture use case analysis
+:imagesdir: ./images
+
+image::telespazio.png[float=right,width=200]
+
+TBD - preamble text here...
+
+== Introduction
+
+This document presents the use cases relevant to the Common Architecture.
+
+== Use Cases
+
+Each use case is presented in the following sub-sections.
+
+== Functional Mapping
+
+Identification of functional areas and their mapping to domain areas.
