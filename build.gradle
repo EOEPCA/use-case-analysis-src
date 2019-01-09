@@ -34,3 +34,4 @@ gitPublish {
 }
 
 build.dependsOn 'asciidoctor'
+gitPublishReset.dependsOn 'build'
