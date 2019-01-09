@@ -13,13 +13,24 @@ buildscript {
     dependencies {
         classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.9.2'
         classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.16'
+        classpath 'org.ajoberstar:gradle-git-publish:2.0.0'
     }
 }
 
 apply plugin: 'org.asciidoctor.convert'
+apply plugin: 'org.ajoberstar.git-publish'
 
 asciidoctor {
     backends 'html5', 'pdf'
+}
+
+// Need to set your GitHub personal access token in the environment variable GRGIT_USER.
+gitPublish {
+    repoUri = 'https://github.com/EOEPCA/use-case-analysis.git'
+    branch = 'gh-pages'
+    contents {
+        from 'build/asciidoc/html5'
+    }
 }
 
 build.dependsOn 'asciidoctor'
