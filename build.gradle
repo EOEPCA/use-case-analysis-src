@@ -4,3 +4,35 @@
  * This is a general purpose Gradle build.
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.9.2'
+    }
+}
+
+apply plugin: 'org.asciidoctor.convert'
+
+/*
+buildscript {
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.15'
+    }
+}
+
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.8.1'
+}
+*/
+
+/*
+asciidoctor {
+    backends 'html5'
+}
+*/
+
+build.dependsOn 'asciidoctor'
