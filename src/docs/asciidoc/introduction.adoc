@@ -1,0 +1,11 @@
+
+== Introduction
+
+This document presents the use cases relevant to the Common Architecture.
+
+=== Reference Documents
+
+The following is a list of Reference Documents with a direct bearing on the content of this document.
+
+* [#EP-UC]#EO Exploitation Platforms - Use Cases, ESA-EOPSDP-TN-17-049, Issue 1.0, 15/12/2017#
+* [[EP-FM]]Exploitation Platform - Functional Model, ESA-EOPSDP-TN-17-050, Issue 1.0, 30/11/2017

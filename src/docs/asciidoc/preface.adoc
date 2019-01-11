@@ -1,0 +1,19 @@
+
+image::telespazio.png[float=right,width=200]
+
+.[big]#*{category}*#
+
+{description}
+
+COPYRIGHT::
+Copyright © {copyrightYear} Telespazio VEGA UK Ltd.
+
+LICENSE AGREEMENT::
++
+[small]#TBD.#
+
+<<<<
+
+toc::[]
+
+<<<<
