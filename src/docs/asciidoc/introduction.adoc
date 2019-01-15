@@ -1,13 +1,35 @@
 
-== Introduction
+= Introduction
+
+== Purpose and Scope
 
 This document presents the use cases relevant to the Common Architecture.
 
-=== Reference Documents
+== Structure of the Document
+
+TBD
+
+== Referenced Documents
 
 The following is a list of Reference Documents with a direct bearing on the content of this document.
 
-* [#EP-UC]#[EP-UC]#
-** EO Exploitation Platforms - Use Cases, ESA-EOPSDP-TN-17-049, Issue 1.0, 15/12/2017
-* [#EP-FM]#[EP-FM]#
-** Exploitation Platform - Functional Model, ESA-EOPSDP-TN-17-050, Issue 1.0, 30/11/2017
+[horizontal]
+[#EP-UC]#[EP-UC]#:: EO Exploitation Platforms - Use Cases, ESA-EOPSDP-TN-17-049, Issue 1.0, 15/12/2017
+[#EP-FM]#[EP-FM]#:: Exploitation Platform - Functional Model, ESA-EOPSDP-TN-17-050, Issue 1.0, 30/11/2017
+
+== Terminology
+
+[horizontal]
+Platform:: An on-line collection of products, services and tools for exploitation of EO data
+Admin:: User with administrative capability on the platform
+Consumer:: User accessing existing services/products within the platform
+Expert:: User developing and integrating added-value to the platform (Scientific Researcher or Service Developer)
+Guest:: Unauthenticated Consumer with limited access to the platform's offer
+
+== Glossary
+
+The following acronyms and abbreviations have been used in this report.
+
+[horizontal]
+EO:: Earth Observation
+VNC:: Virtual Network Computing

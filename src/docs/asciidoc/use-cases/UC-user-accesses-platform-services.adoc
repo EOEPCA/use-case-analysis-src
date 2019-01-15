@@ -1,0 +1,14 @@
+
+= User accesses Platform services
+
+As a User, I want to be able to access the services of the system within the context of my user profile.
+
+. Admin logs in on the Platform
+. Admin configures the access policy of the Platform services
+. Guest successfully accesses unprotected services
+. Guest is denied access to protected services
+. Guest registers as a platform user with an exsiting (external) identity
+. Unauthenticated Consumer/Expert is denied access to protected services
+. Consumer/Expert logs in on the platform
+. Consumer/Expert successfully accesses protected services
+

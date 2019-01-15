@@ -17,10 +17,20 @@ v0.1, 09/01/2019
 :titletext: {title}
 :copyrightYear: 2019
 
+:leveloffset: +1
+
 include::preface.adoc[]
+
+<<<<
 
 include::introduction.adoc[]
 
+<<<<
+
 include::use-cases.adoc[]
 
+<<<<
+
 include::functional-mapping.adoc[]
+
+:leveloffset: -1

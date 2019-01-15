@@ -1,4 +1,4 @@
 
-== Functional Mapping
+= Functional Mapping
 
 Identification of functional areas and their mapping to domain areas.

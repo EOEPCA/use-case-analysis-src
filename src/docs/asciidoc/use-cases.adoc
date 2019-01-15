@@ -1,6 +1,12 @@
 
-== Use Cases
+= Use Cases
 
 Each use case is presented in the following sub-sections.
 
 See <<EP-UC>> and <<EP-FM>> for more information.
+
+:leveloffset: +1
+
+include::use-cases/UC-user-accesses-platform-services.adoc[]
+
+:leveloffset: -1
