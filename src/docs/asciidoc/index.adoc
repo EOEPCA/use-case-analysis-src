@@ -11,7 +11,7 @@ v0.1, 09/01/2019
 :keywords: common architecture use case analysis
 :imagesdir: ./images
 :linkcss:
-:stylesheet: telespazio.css
+:stylesheet: stylesheets/telespazio.css
 // custom attributes
 :category: Technical Note
 :project: EOEPCA

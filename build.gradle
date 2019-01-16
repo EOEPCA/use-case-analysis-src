@@ -26,11 +26,9 @@ asciidoctor {
         include 'index.adoc'
     }
     resources {
-        from("src/docs/asciidoc") {
+        from(sourceDir) {
             include 'images/**'
-        }
-        from("src/docs/asciidoc/stylesheets") {
-            include '**'
+            include 'stylesheets/**'
         }
     }
 }
