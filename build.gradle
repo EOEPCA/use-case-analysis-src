@@ -25,6 +25,14 @@ asciidoctor {
     sources {
         include 'index.adoc'
     }
+    resources {
+        from("src/docs/asciidoc") {
+            include 'images/**'
+        }
+        from("src/docs/asciidoc/stylesheets") {
+            include '**'
+        }
+    }
 }
 
 // Need to set your GitHub personal access token in the environment variable GRGIT_USER.

@@ -9,4 +9,8 @@ See <<EP-UC>> and <<EP-FM>> for more information.
 
 include::use-cases/UC-user-accesses-platform-services.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-discovers-and-visualises-products.adoc[]
+
 :leveloffset: -1

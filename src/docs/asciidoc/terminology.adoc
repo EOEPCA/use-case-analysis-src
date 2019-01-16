@@ -1,0 +1,36 @@
+
+= Terminology
+
+The following terms are used in the use case descriptions.
+
+[cols="1,3"]
+|===
+| Term | Meaning
+
+| Platform (EP)
+| An on-line collection of products, services and tools for exploitation of EO data
+
+| Admin
+| User with administrative capability on the EP
+
+| Consumer
+| User accessing existing services/products within the EP
+
+| Expert
+| User developing and integrating added-value to the EP (Scientific Researcher or Service Developer)
+
+| Guest
+| Unauthenticated Consumer with limited access to the EP's services
+
+| User
+| An individual using the EP, of any type (Admin/Consumer/Expert/Guest)
+
+| Products
+| EO data (commercial and non-commercial) and Value-added products and made available through the EP
+
+| Value-added products
+| Products generated from processing services of the EP (or external processing) and made available through the EP. This includes products uploaded to the EP by users and published for collaborative consumption
+
+| Workspace
+| A set of references to resources (products and services) that have been collected by a user during their usage of the EP.
+|===

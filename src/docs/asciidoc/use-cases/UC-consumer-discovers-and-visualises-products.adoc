@@ -1,0 +1,12 @@
+
+= Consumer discovers and visualises products
+
+As a Consumer I want to search for Products of all types by specification of textual and faceted search criteria. I want to be able to incrementally narrow my search with more criteria clauses. For each Product in the search result I want get more detailed information that describes the product, its usage terms and costs, and visualise the data graphically. Having discovered a product of interest I may 'save' it to my Workspace, download it, or use it as input to further exploitation activities.
+
+[#img_productDiscovery,reftext='{figure-caption} {counter:figure-num}']
+.Product Discovery and Visualisation
+image::discover-product.png[width=800,align="center"]
+
+<<img_productDiscovery>> provides an illustration from EOBrowser, http://apps.eocloud.sentinel-hub.com/eo-browser/.
+
+. TBD
