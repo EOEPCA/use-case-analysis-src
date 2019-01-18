@@ -13,4 +13,8 @@ include::use-cases/UC-user-accesses-platform-services.adoc[]
 
 include::use-cases/UC-consumer-discovers-and-visualises-products.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-uploads-data-to-workspace.adoc[]
+
 :leveloffset: -1

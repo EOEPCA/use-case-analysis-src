@@ -20,17 +20,17 @@ The following terms are used in the use case descriptions.
 | User developing and integrating added-value to the EP (Scientific Researcher or Service Developer)
 
 | Guest
-| Unauthenticated Consumer with limited access to the EP's services
+| An unregistered User or an unauthenticated Consumer with limited access to the EP's services
 
 | User
 | An individual using the EP, of any type (Admin/Consumer/Expert/Guest)
 
 | Products
-| EO data (commercial and non-commercial) and Value-added products and made available through the EP
+| EO data (commercial and non-commercial) and Value-added products and made available through the EP. _It is assumed that the Hosting Environment for the EP makes available an existing supply of EO Data_
 
 | Value-added products
 | Products generated from processing services of the EP (or external processing) and made available through the EP. This includes products uploaded to the EP by users and published for collaborative consumption
 
 | Workspace
-| A set of references to resources (products and services) that have been collected by a user during their usage of the EP.
+| A user-scoped 'container' in the EP, in which each user maintains their own links resources (products and services) that have been collected by a user during their usage of the EP. The workspace acts as the hub for a user's exploitation activities within the EP
 |===
