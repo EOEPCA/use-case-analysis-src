@@ -31,6 +31,9 @@ The following terms are used in the use case descriptions.
 | Guest
 | An unregistered User or an unauthenticated Consumer with limited access to the EP's services
 
+| Discovery
+| User finds products/services of interest to them based upon search criteria.
+
 | Products
 | EO data (commercial and non-commercial) and Value-added products and made available through the EP. _It is assumed that the Hosting Environment for the EP makes available an existing supply of EO Data_
 
@@ -63,6 +66,30 @@ The following terms are used in the use case descriptions.
 
 | Analysis Result
 | The _Products_ produced as output of an _Interactive Application_ analysis session.
+
+| Execution
+| The act to start a _Processing Service_ or an _Interactive Application_.
+
+| Visualisation
+| To obtain a visual representation of any data/products held within the platform - presented to the user within their web browser session.
+
+| Processing
+| A set of pre-defined activities that interact to achieve a result. For the exploitation platform, comprises on-line processing to derive data products from input data, conducted by a hosted processing service execution.
+
+| Algorithm
+| A self-contained set of operations to be performed, typically to achieve a desired data manipulation. The algorithm must be implemented (codified) for deployment and execution on the platform.
+
+| Code
+| The codification of an algorithm performed with a given programming language - compiled to Software or directly executed (interpretted) within the platform.
+
+| Software
+| The compilation of code into a binary program to be executed within the platform on-line computing environment.
+
+| Analytics
+| A set of activities aimed to discover, interpret and communicate meaningful patters within the data. Analytics considered here are performed manually (or in a semi-automatic way) on-line with the aid of _Interactive Applications_.
+
+| Development
+| The act of building new products/services/applications to be exposed within the platform and made available for users to conduct exploitation activities. Development may be performed inside or outside of the platform. If performed outside, an integration activity will be required to accommodate the developed service so that it is exposed within the platform.
 
 | Workspace
 | A user-scoped 'container' in the EP, in which each user maintains their own links to resources (products and services) that have been collected by a user during their usage of the EP. The workspace acts as the hub for a user's exploitation activities within the EP
