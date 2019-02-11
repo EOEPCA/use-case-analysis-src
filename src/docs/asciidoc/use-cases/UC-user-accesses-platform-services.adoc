@@ -9,7 +9,7 @@ As a User, I want to be able to access the services of the system within the con
 . Admin configures the access policy of the EP services
 . Guest successfully accesses unprotected services
 . Guest is denied access to protected services
-. Guest registers as a platform user with an exsiting (external) identity
+. Guest registers as a platform user with an existing (external) identity
 . Unauthenticated Consumer/Expert is denied access to protected services
 . Consumer/Expert logs in on the EP
 . Consumer/Expert successfully accesses protected services
