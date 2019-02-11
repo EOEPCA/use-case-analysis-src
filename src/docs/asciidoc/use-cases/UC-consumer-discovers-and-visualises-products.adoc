@@ -24,6 +24,7 @@ image::visualise-product.png[width=800,align="center"]
 . Consumer incrementally adjusts their search criteria to refine the filtered resultset
 . Consumer selects a product of interest; the EP checks they are authorised to access the product
 . Consumer views detailed metadata for the selected product
+. Consumer views T&Cs for the service and accepts terms of not already done so
 . Optionally, the Consumer 'saves' (a reference to) the product to their workspace
 . Consumer requests the cost for access/usage of the data
 . Optionally, the Consumer visualises the product with a graphical representation. _The Consumer is able to parameterise the visualisation interactively, e.g. specification of layers to view etc._

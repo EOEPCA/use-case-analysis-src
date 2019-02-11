@@ -93,4 +93,8 @@ The following terms are used in the use case descriptions.
 
 | Workspace
 | A user-scoped 'container' in the EP, in which each user maintains their own links to resources (products and services) that have been collected by a user during their usage of the EP. The workspace acts as the hub for a user's exploitation activities within the EP
+
+| Terms & Conditions (T&Cs)
+| The obligations that the user agrees to abide by in regard of usage of products/services of the platform. T&Cs are set by the provider of each product/service.
+
 |===
