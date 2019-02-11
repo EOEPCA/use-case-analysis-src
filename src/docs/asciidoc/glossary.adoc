@@ -9,5 +9,6 @@ The following acronyms and abbreviations have been used in this report.
 
 | EO | Earth Observation
 | EP | Exploitation Platform
+| SSH | Secure Shell
 | VNC | Virtual Network Computing
 |===

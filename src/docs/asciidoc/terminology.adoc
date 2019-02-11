@@ -10,20 +10,26 @@ The following terms are used in the use case descriptions.
 | Platform (EP)
 | An on-line collection of products, services and tools for exploitation of EO data
 
+| User
+| An individual using the EP, of any type (Admin/Consumer/Expert/Guest)
+
 | Admin
 | User with administrative capability on the EP
 
 | Consumer
-| User accessing existing services/products within the EP
+| User accessing existing services/products within the EP. Consumers may be scientific/research or commercial, and may or may not be experts of the domain
 
 | Expert
 | User developing and integrating added-value to the EP (Scientific Researcher or Service Developer)
 
+| Scientific Researcher
+| Expert user with the objective to perform scientific research. Having minimal IT knowledge with no desire to acquire it, they want the effort for the translation of their algorithm into a service/product to be minimised by the platform.
+
+| Service Developer
+| Expert user with the objective to provide a performing, stable and reliable service/product. Having deeper IT knowledge or a willingness to acquire it, they require deeper access to the platform IT functionalities for optimisation of their algorithm.
+
 | Guest
 | An unregistered User or an unauthenticated Consumer with limited access to the EP's services
-
-| User
-| An individual using the EP, of any type (Admin/Consumer/Expert/Guest)
 
 | Products
 | EO data (commercial and non-commercial) and Value-added products and made available through the EP. _It is assumed that the Hosting Environment for the EP makes available an existing supply of EO Data_
@@ -31,6 +37,33 @@ The following terms are used in the use case descriptions.
 | Value-added products
 | Products generated from processing services of the EP (or external processing) and made available through the EP. This includes products uploaded to the EP by users and published for collaborative consumption
 
+| Processing Service
+| A non-interactive data processing that has a well-defined set of input data types, input parameterisation, producing _Processing Results_ with a well-defined output data type.
+
+| On-demand Processing Service
+| A _Processing Service_ whose execution is initiated directly by the user on an ad-hoc basis.
+
+| Systematic Processing Service
+| A _Processing Service_ whose execution is initiated automatically (on behalf of a user), either according to a schedule (routine) or triggered by an event (e.g. arrival of new data).
+
+| Processing Result
+| The _Products_ produced as output of a _Processing Service_ execution.
+
+| Interactive Application
+| A stand-alone application provided within the exploitation platform for on-line hosted processing. Provides an interactive interface through which the user is able to conduct their analysis of the data, producing _Analysis Results_ as output. Interactive Applications include at least the following types: console application, web application (rich browser interface), remote desktop to a hosted VM.
+
+| Interactive Console Application
+| A simple _Interactive Application_ for analysis in which a console interface to a platform-hosted terminal is provided to the user. The console interface can be provided through the user's browser session or through a remote SSH connection.
+
+| Interactive Web Application
+| An Interactive Application for analysis provided as a rich user interface through the user's web browser.
+
+| Interactive Remote Desktop
+| An Interactive Application for analysis provided as a remote desktop session to a VM hosted on the exploitation platform. The user will have access to a number of applications within the hosted OS. The remote desktop session is provided through the user's web browser.
+
+| Analysis Result
+| The _Products_ produced as output of an _Interactive Application_ analysis session.
+
 | Workspace
-| A user-scoped 'container' in the EP, in which each user maintains their own links resources (products and services) that have been collected by a user during their usage of the EP. The workspace acts as the hub for a user's exploitation activities within the EP
+| A user-scoped 'container' in the EP, in which each user maintains their own links to resources (products and services) that have been collected by a user during their usage of the EP. The workspace acts as the hub for a user's exploitation activities within the EP
 |===
