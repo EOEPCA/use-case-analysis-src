@@ -21,4 +21,8 @@ include::use-cases/UC-consumer-uploads-data-to-workspace.adoc[]
 
 include::use-cases/UC-consumer-discovers-and-executes-processing.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-discovers-and-executes-interactive-applications.adoc[]
+
 :leveloffset: -1
