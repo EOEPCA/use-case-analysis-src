@@ -48,3 +48,5 @@ image::processing-results.png[width=800,align="center"]
 NOTE: The use case does not explore how the user obtains/maintains a resource quota in the platform in order to 'pay' for their usage
 
 NOTE: The use case does not consider the possibility of processing services for which the user requires a license key. This would have to be considered as an extension of this case.
+
+'''
