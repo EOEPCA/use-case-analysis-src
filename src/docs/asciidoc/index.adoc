@@ -1,6 +1,9 @@
 = {project} - {titletext}
-Richard Conway <richard.conway@telespazio.com>
-v0.1, 09/01/2019
+:author: Richard Conway
+:email: <richard.conway@telespazio.com>
+:revnumber: v0.2
+:revdate: 15/02/2019
+:revremark: Early draft
 // attributes
 :hardbreaks:
 :sectnums:
