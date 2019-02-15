@@ -1,17 +1,23 @@
 
-= Consumer discovers and executes processing service
+= Consumer discovers and executes On-demand Processing Service
 
 As a Consumer I want to list and search for commercial and non-commercial _Processing Services_, by specification of textual and faceted search criteria. I want to be able to incrementally narrow my search with more criteria clauses. For each _Processing Service_ in the search result I want to get more detailed information, including a description and access to its execution manual. If I have not already done so, then any _Terms & Conditions_ associated to usage of the processing service should be made clear to me, with the opportunity for me to accept the T&Cs before I am authorised to execute the processing service.
 
-I want to prepare the Processing Service for execution by specifying input data from within and outside the platform, and define any other parameters and configuration required to fully specify the job. Based upon my inputs I would like to get an estimation of the execution costs and time, before (optionally) initiating execution of the processing service. Having discovered a processing service of interest I may 'save' it to my Workspace, (which acts as a bookmark) - either with or without my parameterisation.
+I want to prepare the _Processing Service_ for execution by specifying input data from within and outside the platform, and define any other parameters and configuration required to fully specify the job. Based upon my inputs I would like to get an estimation of the execution costs and time, before (optionally) initiating execution of the processing service. Having discovered a processing service of interest I may 'save' it to my Workspace, (which acts as a bookmark) - either with or without my parameterisation.
 
-Having initiated execution of a processing service, I would like to monitor its progress (including any errors occurring), and have access to the results output at the successful conclusion. I would like to visualise my Processing Results graphically with custom visualsation parameters, and possibly download the results. Additionally, I would like to (optionally) publish the Processing Results so that it is available to other users, discoverable through the EP catalogue.
+Having initiated execution of a _Processing Service_, I would like to monitor its progress (including any errors occurring), and have access to the results output at the successful conclusion. I would like to visualise my Processing Results graphically with custom visualsation parameters, and possibly download the results. Additionally, I would like to (optionally) publish the Processing Results so that it is available to other users, discoverable through the EP catalogue.
 
 <<img_processingDiscovery>> illustrates discovery and parameterisation of a Sentinel-2 Land Cover processor, from the Forestry TEP platform.
 
 [#img_processingDiscovery,reftext='{figure-caption} {counter:figure-num}']
 .Processing Discovery - Sentinel-2 Land Cover processor (https://f-tep.com/app/)
 image::discover-processing.png[width=800,align="center"]
+
+<<img_processingResults>> illustrates the visualisation of processing results, from the Forestry TEP platform.
+
+[#img_processingResults,reftext='{figure-caption} {counter:figure-num}']
+.Processing Results (https://f-tep.com/app/)
+image::processing-results.png[width=800,align="center"]
 
 '''
 
@@ -20,19 +26,20 @@ image::discover-processing.png[width=800,align="center"]
 . Optionally, the resultset is automatically filtered to include only those services that the Consumer has right to visualise. _It may be the case that the EP chooses to make these 'unavailable services' visible to the Consumer to publicise their existence_
 . Consumer filters the resultset by any combination of textual search terms, area of interest, time of interest, selection of collection(s) and selection of product facets
 . Consumer incrementally adjusts their search criteria to refine the filtered resultset
-. Consumer selects a processing service of interest; the EP checks they are authorised to access the product
+. Consumer selects a _Processing Service_ of interest; the EP checks they are authorised to access the product
 . Consumer views the manual for the selected service in order to understand its required input data/parameters and the nature of its algorithm
-. Consumer views T&Cs for the service and accepts terms of not already done so
+. Consumer views T&Cs for the service and accepts terms if not already done so
 . Optionally, the Consumer 'saves' (a reference to) the product to their workspace
 . Consumer searches the EP catalogue for input data of interest, by specification of spatial/temporal (and other) characteristics
 . Consumer selects the input data from their search results and/or from their workspace data
-. Consumer specifies the input parameters of the processing service
+. Consumer specifies the input parameters of the _Processing Service_
 . Consumer requests processing execution
-. The EP checks that the Consumer has the authorisation to launch the processing service and access the specified data
+. The EP checks that the Consumer has the authorisation to launch the _Processing Service_ and access the specified data
 . The EP estimates the cost and duration of the processing and checks the Consumer has enough resources to execute the processing
 . Consumer is presented with the cost/duration estimation and confirms the processing
 . Consumer monitors the status of the processing (%completion, execution logs)
 . When the processing completes successfully the _Processing Results_ are made available to the user in their _Workspace_
+. The Consumers billing account is updated comensurate with the 'cost' of the processing
 . Optionally, the Consumer downloads the results
 . Optionally, the Consumer visualises the processing logs (e.g. for error inspection)
 . Optionally, the Consumer visualises the results and is able to manipulate and parameterise the view - with the possibility to download the result of their visualisation
