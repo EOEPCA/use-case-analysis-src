@@ -36,7 +36,7 @@ asciidoctor {
 // Need to set your GitHub personal access token in the environment variable GRGIT_USER.
 gitPublish {
     repoUri = 'https://github.com/EOEPCA/use-case-analysis.git'
-    branch = 'gh-pages'
+    branch = 'master'
     contents {
         from 'build/asciidoc/html5'
     }
