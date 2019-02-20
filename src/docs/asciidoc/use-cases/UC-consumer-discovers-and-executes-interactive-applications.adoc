@@ -48,7 +48,7 @@ image::snap-application.png[width=800,align="center"]
 
 [[aflow-existing-session, Existing Session Selection]]
 .Alternative Flow: Existing Session Selection
-Rather that discovering a starting a new application instance, instead they list existing 'live' sessions, that they can rejoin
+Rather that discovering and starting a new application instance, instead they list existing 'live' sessions, that they can rejoin
 
 .. Consumer obtains a list of their current 'live' interactive sessions
 .. Consumer selects to rejoin an existing session
