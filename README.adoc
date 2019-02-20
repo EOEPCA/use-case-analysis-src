@@ -1,4 +1,6 @@
-= EOEPCA - Use Case Analysis (Document Source for Authors)
+= EOEPCA - Use Case Analysis
+
+*_(Document Source for Authors)_*
 
 This is the raw document source and build/publish system.
 
