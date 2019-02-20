@@ -1,4 +1,4 @@
-= EOEPCA - Use Case Analysis
+= EOEPCA - Use Case Analysis (Document Source for Authors)
 
 This is the raw document source and build/publish system.
 
@@ -10,7 +10,7 @@ The document is authored in AsciiDoc and converted to HTML using https://github.
 
 The output is automatically published via GitHub at the URL https://eoepca.github.io/use-case-analysis/ using the https://github.com/ajoberstar/gradle-git-publish[Gradle Git Publish plugin]. In order to authenticate to the EOEPCA git repository it is necessary to obtain a 'Personal Access Token' for your GitHub user, and make this available to the gradle build in the environment variable `GRGIT_USER`.
 
-The document (source) is maintained on the `master` branch, and the rendered version (build output) is published to the `gh-pages` branch for public consumption.
+The document (source) is maintained in this repository (`use-case-analysis-src`), and the rendered version (build output) is published to the `/docs` folder of the sibling `use-case-analysis` repository, for public consumption.
 
 Build::
 The document is built by running...

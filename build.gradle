@@ -38,7 +38,10 @@ gitPublish {
     repoUri = 'https://github.com/EOEPCA/use-case-analysis.git'
     branch = 'master'
     contents {
-        from 'build/asciidoc/html5'
+        from('build/asciidoc/html5') {
+            into 'docs'
+        }
+        from 'src/README.adoc'
     }
 }
 
