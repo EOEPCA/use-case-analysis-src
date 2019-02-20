@@ -41,6 +41,10 @@ gitPublish {
         from('build/asciidoc/html5') {
             into 'docs'
         }
+        from('build/asciidoc/pdf/index.pdf') {
+            into 'docs'
+            rename 'index.pdf', 'EOEPCA-use-case-analysis.pdf'
+        }
         from 'src/README.adoc'
     }
 }
