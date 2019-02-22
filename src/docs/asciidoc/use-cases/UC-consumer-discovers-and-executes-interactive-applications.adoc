@@ -26,14 +26,14 @@ image::snap-application.png[width=800,align="center"]
 . Optionally, the resultset is automatically filtered to include only those services that the Consumer has right to visualise. _It may be the case that the EP chooses to make these 'unavailable applications' visible to the Consumer to publicise their existence_
 . Consumer filters the resultset by any combination of textual search terms and selection of application facets
 . Consumer incrementally adjusts their search criteria to refine the filtered resultset
-. Alternative Flow: <<aflow-existing-session>>
+. *_Alternative Flow:_* <<aflow-existing-session>>
 . Consumer views the description and execution manual for the selected application
 . Consumer selects an _Interactive Application_ of interest; the EP checks they are authorised to access the application
 . Consumer views T&Cs for the application and accepts terms if not already done so
 . Optionally, the Consumer 'saves' (a reference to) the application to their workspace
 . Consumer searches the EP catalogue for input data of interest, by specification of spatial/temporal (and other) characteristics
 . Consumer selects the input data from their search results and/or from their workspace data
-. Alternative Flow: <<aflow-data-selection>>
+. *_Alternative Flow:_* <<aflow-data-selection>>
 . EP checks that the Consumer is authorised to access the data and has accepted the associated T&Cs - prompting for confirmation of acceptance as required
 . If applicable, the EP estimates the cost for the application/data, checks the Consumer has enough resources to cover this cost, and the Consumer is presented with the cost indication
 . Consumer accepts and starts the Interactive Application, which is presented to them in their web browser
