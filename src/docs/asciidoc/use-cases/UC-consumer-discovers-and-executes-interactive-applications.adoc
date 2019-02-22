@@ -38,7 +38,7 @@ image::snap-application.png[width=800,align="center"]
 . If applicable, the EP estimates the cost for the application/data, checks the Consumer has enough resources to cover this cost, and the Consumer is presented with the cost indication
 . Consumer accepts and starts the Interactive Application, which is presented to them in their web browser
 . The previously selected input data is made available within the execution context of the _Interactive Application_
-. Consumer uses the application to perform analytics using the imput data
+. Consumer uses the application to perform analytics using the input data
 . Optionally, the Consumer accesses additional data to be introduced into the analysis within the _Interactive Application_, (the EP checks rights/costs as required)
 . Consumer saves/exports their Analysis Results from the application to be saved on the EP, within their _Workspace_
 . The Consumer's billing account is updated comensurate with the 'cost' of the processing

@@ -7,6 +7,7 @@ The following acronyms and abbreviations have been used in this report.
 |===
 | Term | Definition
 
+| AOI | Area of Interest
 | EO | Earth Observation
 | EP | Exploitation Platform
 | SSH | Secure Shell

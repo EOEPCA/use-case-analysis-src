@@ -29,4 +29,8 @@ include::use-cases/UC-consumer-discovers-and-executes-interactive-applications.a
 
 include::use-cases/UC-consumer-analyses-value-added-product.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-executes-bulk-processing.adoc[]
+
 :leveloffset: -1
