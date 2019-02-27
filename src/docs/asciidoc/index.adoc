@@ -14,7 +14,7 @@
 :keywords: common architecture use case analysis
 :imagesdir: ./images
 :linkcss:
-:stylesheet: stylesheets/telespazio.css
+:stylesheet: stylesheets/eoepca.css
 // custom attributes
 :category: Technical Note
 :project: EOEPCA
