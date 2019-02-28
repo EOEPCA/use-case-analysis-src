@@ -33,6 +33,7 @@ image::processing-results.png[width=800,align="center"]
 . Optionally, the Consumer 'saves' (a reference to) the product to their workspace
 . *Discover and Select Input Data...*
 . Consumer searches the EP catalogue for input data of interest, by specification of spatial/temporal (and other) characteristics
+. Platforms aids the Consumer in selecting input data that is compatible with the chosen processing service
 . Consumer selects the input data from their search results and/or from their workspace data
 . *Initiate Processing...*
 . Consumer specifies the input parameters of the _Processing Service_
@@ -48,6 +49,8 @@ image::processing-results.png[width=800,align="center"]
 . Optionally, the Consumer visualises the processing logs (e.g. for error inspection)
 . Optionally, the Consumer visualises the results and is able to manipulate and parameterise the view - with the possibility to download the result of their visualisation
 . Optionally, the Consumer publishes their results in the catalogue - specifying all necessary metadata to support discovery
+
+NOTE: The use case considers the user interaction in which the procesor is select first, followed by selection of compatible data. We might also consider the alternative in which the input data is selected first, and the Platform facilitates the selection of compatible processors. Ideally the platform should support both approaches.
 
 NOTE: The use case does not explore how the user obtains/maintains a resource quota in the platform in order to 'pay' for their usage
 
