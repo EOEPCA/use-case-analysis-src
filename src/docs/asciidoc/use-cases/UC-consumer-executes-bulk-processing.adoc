@@ -3,7 +3,7 @@
 
 This use case builds upon case <<Consumer discovers and executes On-demand Processing Service>>.
 
-As a Consumer, I want to execute a processing service over a large amount of data. I want to utilise the EP's discovery service to select a processing service. I want to utlise the EP's discovery service to select multiple datasets. The data discovery should facilitate selection of typical bulk processing scenarios, such as daily acquisitions, or selection by AOI. Having submitted my bulk processing, I would like to monitor the status of the processing, receive the completed _Processing Results_, with the ability to visualise/download etc. the results using the facilities of the EP. In the case of an error, then I should be alerted, with the capability to investigate the cause through access to the processing logs.
+As a Consumer, I want to execute a processing service over a large amount of data. I want to utilise the EP's discovery service to select a processing service. I want to utlise the EP's discovery service to select multiple datasets, typically by specification or AOI and TOI to define the data inputs. The data discovery should facilitate selection of typical bulk processing scenarios, such as daily acquisitions, or selection by AOI. Having submitted my bulk processing, I would like to monitor the status of the processing, receive the completed _Processing Results_, with the ability to visualise/download etc. the results using the facilities of the EP. In the case of an error, then I should be alerted, with the capability to investigate the cause through access to the processing logs.
 
 <<img_bulkProcessing>> shows bulk processing at ESA's Grid Processing On Demand (G-POD) system.
 
