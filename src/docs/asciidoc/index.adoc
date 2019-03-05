@@ -1,4 +1,4 @@
-= {project} - {titletext}
+= {titletext} ({docnum})
 :author: TVUK System Team
 :email: <Eoepca.SystemTeam@telespazio.com>
 :revnumber: v0.2
@@ -18,6 +18,7 @@
 // custom attributes
 :category: Technical Note
 :project: EOEPCA
+:docnum: {project}.TN.005
 :title: Use Case Analysis
 :titletext: {title}
 :copyrightYear: 2019
