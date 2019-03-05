@@ -33,4 +33,8 @@ include::use-cases/UC-consumer-analyses-value-added-product.adoc[]
 
 include::use-cases/UC-consumer-executes-bulk-processing.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-executes-systematic-processing.adoc[]
+
 :leveloffset: -1
