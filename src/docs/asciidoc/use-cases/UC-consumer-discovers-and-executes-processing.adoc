@@ -35,6 +35,9 @@ image::processing-results.png[width=800,align="center"]
 . Consumer searches the EP catalogue for input data of interest, by specification of spatial/temporal (and other) characteristics
 . Platforms aids the Consumer in selecting input data that is compatible with the chosen processing service
 . Consumer selects the input data from their search results and/or from their workspace data
+. The EP checks they are authorised to access the product
+. Consumer views detailed metadata for the selected product
+. Consumer views T&Cs for the service and accepts terms of not already done so
 . *Initiate Processing...*
 . Consumer specifies the input parameters of the _Processing Service_
 . Consumer requests processing execution
