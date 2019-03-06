@@ -37,4 +37,8 @@ include::use-cases/UC-consumer-executes-bulk-processing.adoc[]
 
 include::use-cases/UC-consumer-executes-systematic-processing.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-performs-open-science.adoc[]
+
 :leveloffset: -1

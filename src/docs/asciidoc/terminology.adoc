@@ -55,6 +55,9 @@ The following terms are used in the use case descriptions.
 | Processing Result
 | The _Products_ produced as output of a _Processing Service_ execution.
 
+| Reusable Research Object
+| An encapsulation of some research/analysis that describes all aspects required to reproduce the analysis, including data used, processing performed etc.
+
 | Interactive Application
 | A stand-alone application provided within the exploitation platform for on-line hosted processing. Provides an interactive interface through which the user is able to conduct their analysis of the data, producing _Analysis Results_ as output. Interactive Applications include at least the following types: console application, web application (rich browser interface), remote desktop to a hosted VM.
 
