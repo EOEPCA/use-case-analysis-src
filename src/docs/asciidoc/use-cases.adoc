@@ -41,4 +41,32 @@ include::use-cases/UC-consumer-executes-systematic-processing.adoc[]
 
 include::use-cases/UC-consumer-performs-open-science.adoc[]
 
+<<<<
+
+include::use-cases/UC-consumer-access-with-external-application.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-builds-new-processing-service.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-builds-new-processing-chains.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-builds-new-interactive-application.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-builds-new-value-added-products.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-develops-with-web-dev-env.adoc[]
+
+<<<<
+
+include::use-cases/UC-expert-performs-training.adoc[]
+
 :leveloffset: -1
