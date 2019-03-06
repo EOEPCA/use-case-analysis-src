@@ -55,7 +55,7 @@ In the case of errors during systematic processing
 .. Consumer accesses systematic processing logs to investigate the error cause
 .. (Optionally) Consumer diagnoses problem and resubmits corrected systematic processing definition. _This assumes that the error cause was under the control of the Consumer, i.e. they made an input error._
 
-== Notes
+[big]#*Notes*#
 
 [[note-systematic-processing-cost, Note1]]
 .Systematic Processing Costs
