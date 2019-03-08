@@ -70,6 +70,9 @@ The following terms are used in the use case descriptions.
 | Interactive Remote Desktop
 | An Interactive Application for analysis provided as a remote desktop session to a VM hosted on the exploitation platform. The user will have access to a number of applications within the hosted OS. The remote desktop session is provided through the user's web browser.
 
+| External Application
+| An application or script that is developed and executed outside of the Exploitation Platform, but is able to use the data/services of the EP via a programmatic interface (API).
+
 | Analysis Result
 | The _Products_ produced as output of an _Interactive Application_ analysis session.
 
