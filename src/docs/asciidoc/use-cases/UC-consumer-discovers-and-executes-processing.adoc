@@ -53,10 +53,18 @@ image::processing-results.png[width=800,align="center"]
 . Optionally, the Consumer visualises the results and is able to manipulate and parameterise the view - with the possibility to download the result of their visualisation
 . Optionally, the Consumer publishes their results in the catalogue - specifying all necessary metadata to support discovery
 
-NOTE: The use case considers the user interaction in which the procesor is select first, followed by selection of compatible data. We might also consider the alternative in which the input data is selected first, and the Platform facilitates the selection of compatible processors. Ideally the platform should support both approaches.
+[big]#*Notes*#
 
+[[note-data-proc-selection-order, Data/Processor Selection Order]]
+.Data/Processor Selection Order
+NOTE: The use case considers the user interaction in which the processor is selected first, followed by selection of compatible data. We might also consider the alternative in which the input data is selected first, and the Platform facilitates the selection of compatible processors. Ideally the platform should support both approaches.
+
+[[note-resource-quotas, Resource Quotas]]
+.Resource Quotas
 NOTE: The use case does not explore how the user obtains/maintains a resource quota in the platform in order to 'pay' for their usage
 
+[[note-proc-license-key, Processor License Key]]
+.Processor License Key
 NOTE: The use case does not consider the possibility of processing services for which the user requires a license key. This would have to be considered as an extension of this case.
 
 '''

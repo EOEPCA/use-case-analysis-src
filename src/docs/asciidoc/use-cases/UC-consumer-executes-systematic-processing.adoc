@@ -57,6 +57,6 @@ In the case of errors during systematic processing
 
 [big]#*Notes*#
 
-[[note-systematic-processing-cost, Note1]]
+[[note-systematic-processing-cost, Systematic Processing Costs]]
 .Systematic Processing Costs
 NOTE: Given that the systematic processing occurs asynchronous to the Consumer submitting the definition, the possibility exists that, at time of trigger/execution, the Consumer no longer has sufficient resources to cover the task. This condition must be trapped and handled by the EP - perhaps raising an error to the Consumer. See alternative flow <<aflow-systematic-processing-error>>.

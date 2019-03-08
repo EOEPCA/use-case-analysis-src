@@ -18,8 +18,8 @@ image::open-science.png[width=800,align="center"]
 .. share processing results
 .. link to scientific publication
 .. create a Reusable Research Object for sharing
-.. Others TBD - see <<note-collaboration-options>>.
-. Consumer specifies collaborators and associated access rights (read/write - user/group/everyone). See <<note-collaboration-groups>>.
+.. Others TBD - see note <<note-collaboration-options>>.
+. Consumer specifies collaborators and associated access rights (read/write - user/group/everyone). See note <<note-collaboration-groups>>.
 . The EP shares the item according to the Consumers specification
 . Optionally, the EP registers a DOI for the item
 . Optionally, collaborators are automatically notified of the sharing of the item
@@ -27,11 +27,11 @@ image::open-science.png[width=800,align="center"]
 
 [big]#*Notes*#
 
-[[note-collaboration-options, Note1]]
+[[note-collaboration-options, Collaboration Options]]
 .Collaboration Options
 NOTE: Each of the 'collaborative options' needs to be defined in more detail, and perhaps explored through additional use cases.
 
-[[note-collaboration-groups, Note2]]
+[[note-collaboration-groups, Collaboration Groups]]
 .Collaboration Groups
 NOTE: This use case assumes the concept of 'collaborators'. This implies a grouping of users that needs to be explored in further details through additional use cases.
 

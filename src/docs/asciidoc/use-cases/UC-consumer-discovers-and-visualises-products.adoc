@@ -30,8 +30,14 @@ image::visualise-product.png[width=800,align="center"]
 . Optionally, the Consumer visualises the product with a graphical representation. _The Consumer is able to parameterise the visualisation interactively, e.g. specification of layers to view etc._
 . Optionally, the Consumer downloads the visualisation results
 
+[big]#*Notes*#
+
+[[note-guest-user, Guest User]]
+.Guest User
 NOTE: The use case does not mention the Guest user. It should be taken into account that an EP may choose to allow limited access to a Guest user, such as searching/browsing catalogues, before insisting on user login for exploitation activities. _This approach might be typical in order to allow a potential user discover EP capabilities before signing up_
 
+[[note-data-subsetting, Data Sub-setting]]
+.Data Sub-setting
 NOTE: The use case does not consider the case where the Consumer is able to select sub-setting (spatial/temporal) of the data product itself, which might be typical of data accessible through a service such as OPeNDAP. _The extent to which this case should be considered for the EP is TBD_
 
 '''

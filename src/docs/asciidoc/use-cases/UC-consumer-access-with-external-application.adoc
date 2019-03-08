@@ -21,7 +21,7 @@ image::external-application.png[width=800,align="center"]
 
 [big]#*Notes*#
 
-[[note-external-script, Note1]]
+[[note-external-script, External (non-interative) Script]]
 .External (non-interative) Script
 NOTE: The case of an external script might need a slightly different approach (flow) for the authorisation of the delegated access. For example, a non-interactive (batch) script may need to obtain the delegated credentials in advance of the script execution.
 
