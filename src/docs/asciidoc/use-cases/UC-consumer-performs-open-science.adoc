@@ -33,6 +33,6 @@ NOTE: Each of the 'collaborative options' needs to be defined in more detail, an
 
 [[note-collaboration-groups, Note2]]
 .Collaboration Groups
-NOTE: This use case assumes the concept of 'collaborators'. This implies a grouping of user that needs to be explorted in further details through additional use cases.
+NOTE: This use case assumes the concept of 'collaborators'. This implies a grouping of users that needs to be explored in further details through additional use cases.
 
 '''
