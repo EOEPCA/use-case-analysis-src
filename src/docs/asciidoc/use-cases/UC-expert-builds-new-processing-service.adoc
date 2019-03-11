@@ -1,7 +1,7 @@
 
 = Expert user builds new processing service
 
-An an Expert user, I want to integrate my own software into the platform to be exposed as a new processing service. I want to be able to prepare the software in a self-contained package containing all execution dependencies, for loading into the EP. I want to test the package by deploying and executing it in a hosted test environment, with access to platform data for testing. I want to debug the software and inspect the processing logs. Once satisfied, I want to publish the application as a new processing service, supported by anciliary information included metadata and processor user manual. The metadata should enable discovery of the service and faciliate its usage with compatible data and in chaining. Once published, the new processing service should be discoverable in the EP Catalogue, available for Consumers according to access rights I define.
+As an Expert user, I want to integrate my own software into the platform to be exposed as a new processing service. I want to be able to prepare the software in a self-contained package containing all execution dependencies, for loading into the EP. I want to test the package by deploying and executing it in a hosted test environment, with access to platform data for testing. I want to debug the software and inspect the processing logs. Once satisfied, I want to publish the application as a new processing service, supported by anciliary information included metadata and processor user manual. The metadata should enable discovery of the service and faciliate its usage with compatible data and in chaining. Once published, the new processing service should be discoverable in the EP Catalogue, available for Consumers according to access rights I define.
 
 <<img_buildProcessingService>> illustrates packaging of a new processing service, from the Forestry TEP platform.
 
@@ -25,13 +25,13 @@ image::build-processing-service.png[width=800,align="center"]
 .. Expert specifies metadata to describe the processor to make it discoverable, and to facilitate the EP to ensure compatible use of the processing service (e.g. with compatible input data, and output data for compatible chaining)
 .. Expert provides user manual to aid users of the processing service
 . The EP checks the integrity of the software and that it adheres to the EP terms and conditions
-. The EP adds the processing service to the Applicaiton Catalogue so that is available to Consumers in their discover/browse searches
+. The EP adds the processing service to the Application Catalogue so that is available to Consumers in their discover/browse searches
 . Optionally, EP notifies Consumers about the new service
 
 [big]#*Notes*#
 
 [[note-proc-prep-billing, Processor Preparation Billing]]
 .Processor Preparation Billing
-NOTE: This use-case does not consider whether billing is applied to the usage of the processor test environment, and the associated processor execution. It is assumed that this would not be the case in order to encourage such contributions. However, it should be recognied that this could be abused by Experts exploiting the development environment as a convenient processing environment.
+NOTE: This use-case does not consider whether billing is applied to the usage of the processor test environment, and the associated processor execution. It is assumed that billing may not be applied, in order to encourage such contributions. However, it should be recognised that this could be abused by Experts exploiting the development environment as a convenient processing environment.
 
 '''
