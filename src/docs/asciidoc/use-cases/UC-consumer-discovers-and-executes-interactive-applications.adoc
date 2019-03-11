@@ -11,13 +11,13 @@ As a Consumer, I should be able to request a list of Interactive Application ses
 
 [#img_selectInteractiveApplication,reftext='{figure-caption} {counter:figure-num}']
 .Interactive Application - Discovery and selection (https://www.coastal-tep.eu/)
-image::interactive-application.png[width=800,align="center"]
+image::interactive-application.png[width=100%,align="center"]
 
 <<img_snapApplication>> illustrates the SNAP application running interactively in the user's web browser, from the Costal TEP platform.
 
 [#img_snapApplication,reftext='{figure-caption} {counter:figure-num}']
 .Interactive Application - SNAP running in web browser (https://www.coastal-tep.eu/)
-image::snap-application.png[width=800,align="center"]
+image::snap-application.png[width=100%,align="center"]
 
 '''
 

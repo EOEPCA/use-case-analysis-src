@@ -7,13 +7,13 @@ As a Consumer I want to search for Products of all types by specification of tex
 
 [#img_productDiscovery,reftext='{figure-caption} {counter:figure-num}']
 .Product Discovery - EO Browser (http://apps.eocloud.sentinel-hub.com/eo-browser/)
-image::discover-product.png[width=800,align="center"]
+image::discover-product.png[width=100%,align="center"]
 
 <<img_customVisualisation>> shows custom visualisation of a Sentinel-2 EO data product.
 
 [#img_customVisualisation,reftext='{figure-caption} {counter:figure-num}']
 .Product Visualisation - EO Browser (http://apps.eocloud.sentinel-hub.com/eo-browser/)
-image::visualise-product.png[width=800,align="center"]
+image::visualise-product.png[width=100%,align="center"]
 
 '''
 

@@ -7,7 +7,7 @@ As an Expert user, I want to chain multiple processing services, potentially off
 
 [#img_buildProcessingChain,reftext='{figure-caption} {counter:figure-num}']
 .Build Processing Chain - Example taken from the Geohazards TEP (https://geohazards-tep.eu/)
-image::build-processing-chain.png[width=800,align="center"]
+image::build-processing-chain.png[width=100%,align="center"]
 
 '''
 

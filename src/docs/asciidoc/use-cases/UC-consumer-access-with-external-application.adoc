@@ -7,7 +7,7 @@ As a Consumer I want to be able to use and/or develop an external application th
 
 [#img_externalApplication,reftext='{figure-caption} {counter:figure-num}']
 .External Application - Mobile application exploiting Forestry TEP services (https://f-tep.com/)
-image::external-application.png[width=800,align="center"]
+image::external-application.png[width=100%,align="center"]
 
 '''
 

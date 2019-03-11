@@ -7,7 +7,7 @@ As an Expert user, I want to integrate my standalone application software into t
 
 [#img_buildInteractiveApp,reftext='{figure-caption} {counter:figure-num}']
 .Build Interactive Application - Packaging a new application using Docker image - Forestry TEP (https://f-tep.com/app/)
-image::build-interactive-application.png[width=800,align="center"]
+image::build-interactive-application.png[width=100%,align="center"]
 
 This use-case is largely the same as case <<Expert user builds new processing service>>, the main difference being the nature of the application being deployed, i.e. an application that presents a user interface to the Consumer through their web browser interface. The interactive application may be of the following type:
 

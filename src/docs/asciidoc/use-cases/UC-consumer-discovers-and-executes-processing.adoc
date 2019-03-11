@@ -11,13 +11,13 @@ Having initiated execution of a _Processing Service_, I would like to monitor it
 
 [#img_processingDiscovery,reftext='{figure-caption} {counter:figure-num}']
 .Processing Discovery - Sentinel-2 Land Cover processor (https://f-tep.com/app/)
-image::discover-processing.png[width=800,align="center"]
+image::discover-processing.png[width=100%,align="center"]
 
 <<img_processingResults>> illustrates the visualisation of processing results, from the Forestry TEP platform.
 
 [#img_processingResults,reftext='{figure-caption} {counter:figure-num}']
 .Processing Results (https://f-tep.com/app/)
-image::processing-results.png[width=800,align="center"]
+image::processing-results.png[width=100%,align="center"]
 
 '''
 
