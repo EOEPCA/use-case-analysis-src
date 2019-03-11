@@ -56,3 +56,5 @@ Rather that discovering and starting a new application instance, instead they li
 [[aflow-data-selection, Input Data Selection]]
 .Alternative Flow: Input Data Selection
 Rather than pre-selecting the input data before invoking the _Interactive Application_, it may be preferable (depending on the application) to make the input data selection from within the _Interactive Application_. The use case is not elaborated here in regard of this approach, but it should be ensured that the data access is made within the context of the user's access rights and associated billing considerations.
+
+'''
