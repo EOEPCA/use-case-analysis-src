@@ -9,7 +9,7 @@ As an Expert user, I want to be able to configure and execute a bulk processing 
 
 [#img_newValueAddedProduct,reftext='{figure-caption} {counter:figure-num}']
 .New Value-added Product - Systematic publication of value-added products - Geohazards TEP (https://geohazards-tep.eu/)
-image::new-value-added-product.png[width=100%,align="center"]
+image::new-value-added-product.png[width=1000,align="center"]
 
 '''
 

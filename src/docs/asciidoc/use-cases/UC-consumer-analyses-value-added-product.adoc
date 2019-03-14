@@ -7,6 +7,6 @@ By way of illustration, <<img_valueAddedProducts>> provides an example that uses
 
 [#img_valueAddedProducts,reftext='{figure-caption} {counter:figure-num}']
 .Value Added Products Analyses - PUMA WebGIS (https://urban-tep.eu/)
-image::value-added-products.png[width=100%,align="center"]
+image::value-added-products.png[width=1000,align="center"]
 
 '''

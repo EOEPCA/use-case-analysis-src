@@ -9,7 +9,7 @@ This use-case might be seen as a special case of case <<Consumer discovers and e
 
 [#img_webDevEnv,reftext='{figure-caption} {counter:figure-num}']
 .Web Development Environment - Example mocked-up with images from Raster Foundry (https://www.rasterfoundry.com/)
-image::web-dev-environment.png[width=100%,align="center"]
+image::web-dev-environment.png[width=1000,align="center"]
 
 '''
 

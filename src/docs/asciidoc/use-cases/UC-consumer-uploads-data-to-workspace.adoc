@@ -14,13 +14,13 @@ The following figures provide implementation examples from the Hydrology TEP, ht
 
 [#img_manageMyData,reftext='{figure-caption} {counter:figure-num}']
 .Manage My Data
-image::manage-my-data.png[width=100%,align="center"]
+image::manage-my-data.png[width=1000,align="center"]
 
 <<img_workspaceUpload>> illustrates the invocation of the data upload capability.
 
 [#img_workspaceUpload,reftext='{figure-caption} {counter:figure-num}']
 .Workspace Upload
-image::workspace-upload.png[width=100%,align="center"]
+image::workspace-upload.png[width=1000,align="center"]
 
 '''
 

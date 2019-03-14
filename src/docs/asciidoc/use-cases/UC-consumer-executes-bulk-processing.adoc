@@ -9,7 +9,7 @@ As a Consumer, I want to execute a processing service over a large amount of dat
 
 [#img_bulkProcessing,reftext='{figure-caption} {counter:figure-num}']
 .Bulk Processing - Results of a bulk processing from G-POD (http://gpod.eo.esa.int/)
-image::bulk-processing.png[width=100%,align="center"]
+image::bulk-processing.png[width=1000,align="center"]
 
 '''
 

@@ -7,7 +7,7 @@ As an Expert user, I want to integrate my own software into the platform to be e
 
 [#img_buildProcessingService,reftext='{figure-caption} {counter:figure-num}']
 .Build Processing Service - Packaging a new processor using Docker image - Forestry TEP (https://f-tep.com/app/)
-image::build-processing-service.png[width=100%,align="center"]
+image::build-processing-service.png[width=1000,align="center"]
 
 '''
 

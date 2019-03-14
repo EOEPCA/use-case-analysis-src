@@ -9,7 +9,7 @@ As a Consumer, I want to be able to discover/browse the learning content, and at
 
 [#img_training,reftext='{figure-caption} {counter:figure-num}']
 .Training - Course List example mock-up with images from http://coursera.org/
-image::training.png[width=100%,align="center"]
+image::training.png[width=1000,align="center"]
 
 '''
 

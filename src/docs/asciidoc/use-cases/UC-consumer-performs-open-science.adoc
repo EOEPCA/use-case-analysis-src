@@ -7,7 +7,7 @@ As a Consumer I want to share my analysis and processing results in such a way t
 
 [#img_openScience,reftext='{figure-caption} {counter:figure-num}']
 .Open Science - Sharing analysis results on the Geohazards TEP (https://geohazards-tep.eu/)
-image::open-science.png[width=100%,align="center"]
+image::open-science.png[width=1000,align="center"]
 
 '''
 

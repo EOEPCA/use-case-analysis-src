@@ -15,7 +15,7 @@ I want to utilise the EP's discovery service to select a processing service. I w
 
 [#img_systematicProcessing,reftext='{figure-caption} {counter:figure-num}']
 .Systematic Processing - Setup of systematic processing from G-POD (http://gpod.eo.esa.int/)
-image::systematic-processing.png[width=100%,align="center"]
+image::systematic-processing.png[width=1000,align="center"]
 
 '''
 
