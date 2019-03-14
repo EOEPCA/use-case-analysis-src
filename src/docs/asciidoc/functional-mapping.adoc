@@ -1,4 +1,29 @@
 
 = Functional Mapping
 
-Identification of functional areas and their mapping to domain areas.
+*Identification of functional areas and their mapping to domain areas.*
+
+The Exploitation Platform architecture is defined by services that together provide the complete functionality of the platform. Domain Areas are defined as groupings of related services, which provide the building blocks for the system. Dedicated specialist expertise can then be applied to each domain area to ensure the best design and development across the system. Inevitably, there will be some services that stradle the notional divide between domain area - in which case close collaboration is essential between domain area experts to establish a holistic solution.
+
+The identified domain areas are as follows:
+
+User Management (UM)::
+TBD
+
+Processing & Chaining (P&C)::
+TBD
+
+Resource Management (RM)::
+TBD
+
+In the following subsections we identify functionality that is derived from the use-csaes, and then map this onto domain areas.
+
+== User accesses Platform services
+
+[cols="<.^85,^.^5,^.^5,^.^5"]
+|===
+| Platform Function | UM | P&C | RM
+
+| User identification/authentication using external Identity Provider | x | | 
+
+|===
