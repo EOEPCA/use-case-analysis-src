@@ -1,0 +1,10 @@
+
+= Consumer discovers and visualises products
+
+[cols="<.^85,^.^5,^.^5,^.^5"]
+|===
+| Platform Function | UM | P&C | RM
+
+| TBD | x | x | x
+
+|===
