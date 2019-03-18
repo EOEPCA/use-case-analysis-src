@@ -14,6 +14,6 @@ This document is available in PDF format https://eoepca.github.io/use-case-analy
 COPYRIGHT::
 Copyright © {copyrightYear} TBD (ESA or TVUK or something else ?)
 
-<<<<
+<<<
 
 toc::[]

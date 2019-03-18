@@ -27,15 +27,15 @@
 
 include::preface.adoc[]
 
-<<<<
+<<<
 
 include::introduction.adoc[]
 
-<<<<
+<<<
 
 include::use-cases.adoc[]
 
-<<<<
+<<<
 
 include::functional-mapping.adoc[]
 
