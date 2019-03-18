@@ -66,5 +66,3 @@ NOTE: The use case does not explore how the user obtains/maintains a resource qu
 [[note-proc-license-key, Processor License Key]]
 .Processor License Key
 NOTE: The use case does not consider the possibility of processing services for which the user requires a license key. This would have to be considered as an extension of this case.
-
-'''

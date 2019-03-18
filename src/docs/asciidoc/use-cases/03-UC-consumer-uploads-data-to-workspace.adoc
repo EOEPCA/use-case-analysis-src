@@ -31,5 +31,3 @@ image::workspace-upload.png[width=1000,align="center"]
 . Optionally, consumer can view the details of any data in their workspace, including that which they have uploaded
 . Optionally, consumer visualises their uploaded data and is able to manipulate and parameterise the view - with the possibility to download the result of their visualisation
 . Optionally, consumer publishes the uploaded data in the catalogue - specifying all necessary metadata to support discovery
-
-'''

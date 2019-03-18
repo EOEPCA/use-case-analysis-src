@@ -39,5 +39,3 @@ Since the interactive development environment may be considered to be an interac
 <<Consumer performs Open Science>>::
 Since the Expert's saved work might for the basis for a _Reusable Research Object_
 ====
-
-'''

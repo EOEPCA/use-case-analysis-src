@@ -23,5 +23,3 @@ An Interactive Application for analysis provided as a remote desktop session to 
 '''
 
 For brevity, the use-case steps are not reproduced here - instead case <<Expert user builds new processing service>> should be referred to, taking into account the deployment of an _Interactive Application_ rather than a _Processing Service_.
-
-'''

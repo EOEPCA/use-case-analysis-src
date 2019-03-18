@@ -33,5 +33,3 @@ image::build-processing-service.png[width=1000,align="center"]
 [[note-proc-prep-billing, Processor Preparation Billing]]
 .Processor Preparation Billing
 NOTE: This use-case does not consider whether billing is applied to the usage of the processor test environment, and the associated processor execution. It is assumed that billing may not be applied, in order to encourage such contributions. However, it should be recognised that this could be abused by Experts exploiting the development environment as a convenient processing environment.
-
-'''

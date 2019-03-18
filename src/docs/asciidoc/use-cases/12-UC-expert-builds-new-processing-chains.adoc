@@ -32,5 +32,3 @@ NOTE: In order to publish the processing-chain as a generally reusable processin
 [[note-nested-chaining, Nested Chaining]]
 .Nested Chaining
 NOTE: Once published as a processing service, it should in principle then be possible to regard this processing-chain as a single step in another processing-chain.
-
-'''

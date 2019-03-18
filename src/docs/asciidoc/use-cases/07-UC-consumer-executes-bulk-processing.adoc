@@ -51,5 +51,3 @@ In the case of errors during bulk processing
 .. Consumer is alerted to errors occuring during the bulk processing
 .. Consumer accesses bulk processing logs to investigate the error cause
 .. (Optionally) Consumer diagnoses problem and resubmits corrected bulk processing request. _This assumes that the error cause was under the control of the Consumer, i.e. they made an input error._
-
-'''

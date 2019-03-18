@@ -33,5 +33,3 @@ _In the simple case, the Expert prepares the content offline (e.g. screencast vi
 . Consumer accesses course content via the training environment defined by the Expert; the EP checks the Consumer is authorised to do so
 . Consumer accesses on-demand course content
 . Consumer 'attends' live course content as delivered by the Expert
-
-'''

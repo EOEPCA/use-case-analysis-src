@@ -13,5 +13,3 @@ As a User, I want to be able to access the services of the system within the con
 . Unauthenticated Consumer/Expert is denied access to protected services
 . Consumer/Expert logs in on the EP
 . Consumer/Expert successfully accesses protected services
-
-'''

@@ -19,5 +19,3 @@ image::new-value-added-product.png[width=1000,align="center"]
 . Expert configures the bulk or systematic processing to publish data into the defined product collection, (or an already existing collection); the EP checks the Expert is authorised to add products to the selected collection
 . EP publishes results automatically once processing is over, and includes the new value-added products into the selected collection
 . Optionally, EP notifies Consumers about the new products
-
-'''

@@ -17,5 +17,3 @@ Copyright © {copyrightYear} TBD (ESA or TVUK or something else ?)
 <<<<
 
 toc::[]
-
-<<<<

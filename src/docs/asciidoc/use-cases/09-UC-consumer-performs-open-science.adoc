@@ -34,5 +34,3 @@ NOTE: Each of the 'collaborative options' needs to be defined in more detail, an
 [[note-collaboration-groups, Collaboration Groups]]
 .Collaboration Groups
 NOTE: This use case assumes the concept of 'collaborators'. This implies a grouping of users that needs to be explored in further details through additional use cases.
-
-'''
