@@ -12,11 +12,7 @@ PDF::
 This document is available in PDF format https://eoepca.github.io/use-case-analysis/EOEPCA-use-case-analysis.pdf[here].
 
 COPYRIGHT::
-Copyright © {copyrightYear} Telespazio VEGA UK Ltd.
-
-LICENSE AGREEMENT::
-+
-[small]#TBD.#
+Copyright © {copyrightYear} TBD (ESA or TVUK or something else ?)
 
 <<<<
 
