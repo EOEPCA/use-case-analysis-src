@@ -8,15 +8,15 @@ The Exploitation Platform architecture is defined by services that together prov
 The identified domain areas are as follows:
 
 User Management (UM)::
-TBD
+All aspects of user identification, authentication and authorisation in a federated system-of-systems environment.
 
 Processing & Chaining (P&C)::
-TBD
+Hosting and maintaining an inventory of all processing tasks, analysis tools and interactive applications. Handles and abstracts the low-level complexities of the different underlying compute technologies, and ensures the compute layer is scaled in accordance with current demand. Provides an integrated development environment to facilitate development of new processing algorithms and applications. Facilitating the network of EO resources by providing a federated interface to other processing services within the wider EO network.
 
 Resource Management (RM)::
-TBD
+Storage and cataloguing of all persistent resources, including data and other supporting material such as documents. Handles and abstracts the low-level complexities of different underlying storage technologies and strategies. Facilitating the network of EO resources by providing a federated interface to other data services within the wider EO network.
 
-In the following subsections we identify functionality that is derived from the use-csaes, and then map this onto domain areas.
+In the following subsections we identify functionality that is derived from the use-cases, and then map this onto domain areas.
 
 == User accesses Platform services
 
@@ -24,6 +24,12 @@ In the following subsections we identify functionality that is derived from the 
 |===
 | Platform Function | UM | P&C | RM
 
+| Each user uniquely identified | x | | 
 | User identification/authentication using external Identity Provider | x | | 
+| User assigned access privileges to platform resources (data/services) | x | | 
+| Unidentified / unauthorised user is regarded as a Guest with limited access | x | | 
+| EP enforces authorisation when user accesses platform resources (data/services) | x | | 
+| EP accesses resources of other platform on behalf of a user (delegated) | x | | 
+| EP enforces authorisation when an external platform attempts delegated access on behalf of a user | x | | 
 
 |===
