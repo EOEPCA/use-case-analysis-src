@@ -3,6 +3,32 @@
 
 The following is a list of Reference Documents with a direct bearing on the content of this document.
 
-[horizontal]
-[[EP-UC]][EP-UC]:: EO Exploitation Platforms - Use Cases, ESA-EOPSDP-TN-17-049, Issue 1.0, 15/12/2017
-[[EP-FM]][EP-FM]:: Exploitation Platform - Functional Model, ESA-EOPSDP-TN-17-050, Issue 1.0, 30/11/2017
+[cols="1,5,1"]
+|===
+| Reference | Document Details | Version
+
+| [[EP-UC]][EP-UC]
+a|
+--
+EO Exploitation Platforms - Use Cases, +
+ESA-EOPSDP-TN-17-049
+--
+a|
+--
+Issue 1.0, +
+15/12/2017
+--
+
+| [[EP-FM]][EP-FM]
+a|
+--
+Exploitation Platform - Functional Model, +
+ESA-EOPSDP-TN-17-050
+--
+a|
+--
+Issue 1.0, +
+30/11/2017
+--
+
+|===
