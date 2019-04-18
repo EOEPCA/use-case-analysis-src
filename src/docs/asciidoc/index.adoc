@@ -1,8 +1,8 @@
 = {titletext} ({docnum})
 :author: TVUK System Team
 :email: <Eoepca.SystemTeam@telespazio.com>
-:revnumber: v0.4
-:revdate: 18/04/2019
+:revnumber: v0.5-inprogress
+:revdate: dd/mm/yyyy
 :revremark: In-Progress Draft
 // attributes
 :hardbreaks:
