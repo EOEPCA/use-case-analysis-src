@@ -1,0 +1,18 @@
+
+= User uses commercial data or processing services and pays using his platform account (via clearing house)
+
+As a User I want to use commercially licensed resources via my home platform and pay via my billing account with this platform. As a Licenser I want to publish my resources via my own platform (the 'host' platform) and receive payment via my billing account with my own platform.
+
+Unlike the previous one, this use-case assumes that each platform forms a contract with a clearing house and payments are cleared via it. The clearing house performs credit checks on participants and guarantees accepted payments.
+
+Some important notes on the arrangement:
+
+. The home platform always bears the credit risk that its User does not pay. It must still pay the clearing house. This is because the home platform is most able to assess the User's creditworthiness and to pursue payment.
+. The clearing house always bears the credit risk that the home platform does not pay. It may require security to be posted.
+. The host platform always bears the credit risk that the clearing house does not pay (but this should be made very unlikely). It must still pay the Licenser.
+. Either platform or clearing house can refuse the purchase for risk reasons, but the Licenser cannot.
+. Both platforms and clearing house will wish to charge for this risk and for processing costs.
+
+
+'''
+

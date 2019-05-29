@@ -1,0 +1,31 @@
+
+= User uses commercial data or processing services and pays using his platform account
+
+As a User I want to use commercially licensed resources via my home platform and pay via my billing account with this platform. As a Licenser I want to publish my resources via my own platform (the 'host' platform) and receive payment via my billing account with my own platform.
+
+This use-case assumes a network of agreements between exploitation platforms. Each platform has (or may have) an 'account' with each other platform.
+
+Some important notes on the arrangement:
+
+. The home platform always bears the credit risk that its User does not pay. It must still pay the host platform. This is because the home platform is most able to assess the User's creditworthiness and to pursue payment.
+. The host platform always bears the credit risk that the home platform does not pay. It must still pay the Licenser.
+. Either platform can refuse the purchase for risk reasons, but the Licenser cannot.
+. Both platforms will wish to charge for this risk and for processing costs.
+. It requires O(n^2) agreements between platforms for User to be able to use any resource. Licensers may need to publish on multiple platforms if an inadequate network is achieved.
+
+
+'''
+
+. Licenser publishes a commercially licenced resource via the host platform (his home platform) and configures pricing information.
+. User accesses this resource using his home platform. The estimated costs presented include licensing costs and platform fees and he is required to agree to the terms of the license.
+. The home platform authorizes a debit to the User's account (a debt to be later owed by the User to the home platform), after assessing creditworthiness and fraud risk and 'blocking' some available credit.
+. The home platform checks that a contract between it and the host platform is in place and in good standing.
+. The home platform makes a request to the host platform to authorize payment (a debt owed by the home platform to the host platform).
+. The host platform checks that a contract between it and the home platform is in place and in good standing.
+. The host platform returns an identifier for this access to the home platform.
+. The home platform proceeds with data access (which may involve delegation to other platforms). The access identifier is passed along.
+. The host platform receives a request for data access or processing and checks that the access identifier and user ID are correct and unused.
+. Processing or data transfer occurs.
+. The host platform credits the Licenser's account.
+. The host platform issues a request for settlement to the home platform and records a debit in the home platform's account with the host platform.
+. The home platform records the debit in the User's account as a complete purchase.

@@ -106,4 +106,7 @@ The following terms are used in the use case descriptions.
 | Terms & Conditions (T&Cs)
 | The obligations that the user agrees to abide by in regard of usage of products/services of the platform. T&Cs are set by the provider of each product/service.
 
+| Licenser
+| A copyright owner or agent authorized to issue licences for access to data or processing services, typically on commercial terms
+
 |===

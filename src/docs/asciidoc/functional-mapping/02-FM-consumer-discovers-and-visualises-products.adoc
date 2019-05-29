@@ -1,10 +1,27 @@
 
-= Consumer discovers and visualises products
+= Consumer discovers and visualizes products
 
 [cols="<.^85,^.^5,^.^5,^.^5"]
 |===
 | Platform Function | UM | P&C | RM
 
-| TBD | x | x | x
+| Platform can search a catalogue of products using free text, AoI/time and facets| | | x
+| Platform can perform federated search, also using free text, AoI/time and facets| | | x
+| EP provides a browser-based UI for performing searches and viewing results      | | | x
+| Catalogue can filter or mark results based on user account data (eg, licences purchased, academic vs commercial user) and resource access rules / ownership | x | | x
+| Catalogue can refuse access to some or all product information based on the user and resource (eg, show summary or search result but not allow data access or visualization) | x | | x
+| Catalogue contains, for each product, detailed metadata, identifiers of required T&Cs and costing data (licence costs, data to estimate data sizes/processing times) | | | x
+| EP can store and return text and metadata for resource T&Cs | | | x
+| EP permits authorized users to add and update T&C text and metadata | | x
+| EP permits authorized users to update resource access rules and settings (licences required, descriptions, costing data, etc) | | | x
+| EP can request, record and display acceptance of identified T&Cs by a user (or organisation?) | x | |
+| EP can prevent access to data, processing services and metadata when T&C acceptance is required and not completed and can prompt the user to do this | x | x | x
+| EP provides a 'user workspace' and can record identifiers of 'saved' resources | | | x
+| EP can cost access and use of data (which may involve estimating data size, processing time and licencing costs) | | x | x
+| EP provides an interactive visualization of data search results, considering user parameters (eg, location or band selected) and the dataset (eg, preferred projection, appropriate colouring, key and units, etc) | | x | x
+| EP permits the data publisher to specify a default visualization and parameterization that can be available in search results and used to quickly assess the data's relevance to the user | | x | x
+| EP permits download of visualization images | | x |
+| EP presents a site map and per-dataset structured data for external search engines (eg Google, Google Dataset) | | | x
+| User can download data, subject to access constraints and configured costs | | | x
 
 |===

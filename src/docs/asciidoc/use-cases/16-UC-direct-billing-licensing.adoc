@@ -1,0 +1,17 @@
+
+= User uses commercial data or processing services which he has contracted for directly
+
+As a User I want to buy a licence directly from a provider of data or processing services (not necessarily published on my home platform) and then access this data / service within my home platform.
+
+In this use case the complexities of sales, billing and licensing are handled outside the federation of exploitation platforms. The user obtains a licence, tied to his organisation or user ID(s), without interacting with the platform.
+
+The platform federation must then authorize and report his use of the data. Involved is the User, the Licenser (copyright owner or agent authorized to issue licences), the host platform (in which the resource being accessed is originally published) and the home platform.
+
+
+'''
+
+. User contracts for a resource licence, supplying his EP user ID(s) or an account/organization identifier
+. User accesses the resource (data or processing service) using his home platform, which may involve subsequent federated access
+. The host platform authorizes his use of this resource by making a request to an API endpoint operated by the Licenser
+. Processing or data access continues normally, subject to re-authorization after a time or volume specified by the Licenser
+. The user of the data or service is reported to the Licenser
