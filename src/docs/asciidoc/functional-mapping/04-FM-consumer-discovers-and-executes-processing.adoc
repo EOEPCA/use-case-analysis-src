@@ -10,9 +10,9 @@
 | EP provides a browser-based UI for performing processing service searches and viewing results | | | x
 | Catalogue can filter or mark results based on user account data (eg, licences purchased, commercial vs academic user) and processing service access rules / ownership | x | | x
 | Catalogue can refuse access to some or all processing service information based on the user and resource (eg, show summary or search result but not detailed manual) | x | | x
-| Catalogue contains and EP can display, for each service, detailed metadata, documentation, required T&Cs, documentation and costing data (licence costs, data to estimate data sizes/processing times, special requirements (eg GPUs)) | | x
+| Catalogue contains and EP can display, for each service, detailed metadata, documentation, required T&Cs, documentation and costing data (licence costs, data to estimate data sizes/processing times, special requirements (eg GPUs)) | | | x
 | EP can store and return text and metadata for processing service T&Cs | | | x
-| EP permits authorized users to add and update T&C text and metadata | | x
+| EP permits authorized users to add and update T&C text and metadata | | | x
 | EP permits authorized users to update resource access rules and settings (licences required, descriptions, costing data, etc) | | | x
 | EP can request, record and display acceptance of identified T&Cs by a user (or organisation?) | x | |
 | EP can prevent access to processing services and metadata when T&C acceptance is required and not completed and can prompt the user to do this | x | x | x

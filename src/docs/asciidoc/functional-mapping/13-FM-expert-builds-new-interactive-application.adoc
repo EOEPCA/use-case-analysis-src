@@ -5,6 +5,15 @@
 |===
 | Platform Function | UM | P&C | RM
 
-| TBD | x | x | x
+| An Expert User can create interactive applications in the form of containers (eg Docker or Singularity images) and use the UI or API to add them to the catalogue | | x | x
+| An Expert User can publish interactive applications, so that others can find it in the catalogue, providing all metadata and other requirements are met | | | x
+| An interactive application may open permitted ports (eg, an ssh port) so that a user can interact with it using a CLI/console-like interface | | x |
+| An interactive application can provide a web app (which may be a one-page JavaScript app+API, or may be server-side generated) and the platform UI will facilitate the display of this app (eg by providing a link and/or allowing it to be used embedded in its UI)| | x |
+| An interactive application can run inside a GUI environment (eg X Windows) running on a server which the user interacts with remotely (eg using remote desktop) | | x |
+| Multiple interactive applications can be installed for use within a remote GUI environment | | x |
+
+
+
+TODO: Consider application session lifecycles
 
 |===

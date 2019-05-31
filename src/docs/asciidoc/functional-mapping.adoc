@@ -112,4 +112,22 @@ include::functional-mapping/15-FM-expert-develops-with-web-dev-env.adoc[]
 
 include::functional-mapping/16-FM-expert-performs-training.adoc[]
 
+'''
+
+<<<
+
+include::functional-mapping/17-FM-user-buys-access-externally.adoc[]
+
+'''
+
+<<<
+
+include::functional-mapping/18-FM-mediated-billing.adoc[]
+
+'''
+
+<<<
+
+include::functional-mapping/19-FM-clearinghouse-billing.adoc[]
+
 :leveloffset: -1

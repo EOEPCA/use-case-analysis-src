@@ -1,0 +1,15 @@
+= User uses commercial data or processing services which he has contracted for directly
+
+[cols="<.^85,^.^5,^.^5,^.^5"]
+|===
+| Platform Function | UM | P&C | RM
+
+| A Licenser who has published resources in the catalogue on a commercial basis can specify an API endpoint which will be contacted to authorize access to those resources or can specify a list of permitted user IDs | x | | x
+| The platform can restrict use of a resource based on this API endpoint, including time or volume limits after which access must be re-authorized | x | x | x
+| The platform can report use of resources to their Licensers via API for billing purposes | | | x
+
+
+TODO: Consider how to reuse other authentication infrastructure, eg oAuth
+TODO: Do we really need to report to Licensers?
+
+|===

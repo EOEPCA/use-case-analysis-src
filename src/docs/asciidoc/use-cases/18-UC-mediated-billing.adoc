@@ -1,5 +1,5 @@
 
-= User uses commercial data or processing services and pays using his platform account
+= User uses commercial data or processing services and pays using his platform account (bilateral clearing)
 
 As a User I want to use commercially licensed resources via my home platform and pay via my billing account with this platform. As a Licenser I want to publish my resources via my own platform (the 'host' platform) and receive payment via my billing account with my own platform.
 
@@ -29,3 +29,15 @@ Some important notes on the arrangement:
 . The host platform credits the Licenser's account.
 . The host platform issues a request for settlement to the home platform and records a debit in the home platform's account with the host platform.
 . The home platform records the debit in the User's account as a complete purchase.
+
+
+[[aflow-mediated-billing-direct-to-host, Direct Payment via Host Platform Account]]
+.Alternative Flow: Direct Payment via Host Platform Account
+
+Instead of buying a licence using the home platform a User may have bought or buy a licence through a User account
+at the host platform. This is possible even if no inter-platform payment agreement is operational between the two
+platforms.
+
+.. EP determines that the User cannot buy access via the home platform but can do so via the host platform
+.. EP provides a link to the host platform to do this
+.. EP provides access to the licensed resource once the User has bought a suitable licence

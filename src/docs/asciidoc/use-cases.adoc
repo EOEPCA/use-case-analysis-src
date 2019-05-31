@@ -99,4 +99,22 @@ include::use-cases/15-UC-expert-develops-with-web-dev-env.adoc[]
 
 include::use-cases/16-UC-expert-performs-training.adoc[]
 
+'''
+
+<<<
+
+include::use-cases/17-UC-direct-billing-licensing.adoc[]
+
+'''
+
+<<<
+
+include::use-cases/18-UC-mediated-billing.adoc[]
+
+'''
+
+<<<
+
+include::use-cases/19-UC-clearinghouse-billing.adoc[]
+
 :leveloffset: -1

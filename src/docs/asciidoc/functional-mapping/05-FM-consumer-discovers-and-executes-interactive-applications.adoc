@@ -10,9 +10,9 @@
 | EP provides a browser-based UI for performing interactive application searches and viewing results | | | x
 | Catalogue can filter or mark results based on user account data (eg, licences purchased, commercial vs academic user) and interactive application access rules / ownership | x | | x
 | Catalogue can refuse access to some or all interactive application information based on the user and resource (eg, show summary or search result but not detailed manual) | x | | x
-| Catalogue contains and EP can display, for each application, detailed metadata, documentation, required T&Cs and costing data (licence costs, data to estimate data sizes/processing times, special requirements (eg GPUs)) | | x
+| Catalogue contains and EP can display, for each application, detailed metadata, documentation, required T&Cs and costing data (licence costs, data to estimate data sizes/processing times, special requirements (eg GPUs)) | | | x
 | EP can store and return text and metadata for application T&Cs | | | x
-| EP permits authorized users to add and update T&C text and metadata | | x
+| EP permits authorized users to add and update T&C text and metadata | | | x
 | EP permits authorized users to update application access rules and settings (licences required, descriptions, costing data, etc) | | | x
 | EP can request, record and display acceptance of identified T&Cs by a user (or organisation?) | x | |
 | EP can prevent access to applications and metadata when T&C acceptance is required and not completed and can prompt the user to do this | x | x | x
@@ -31,5 +31,7 @@
 | Consumer can specify licences and access restrictions for the published application outputs (which will apply in addition to restrictions on required input data) | | | x
 | Consumer can resume an earlier interactive application 'session' by choosing it from a list | | x | x
 | EP includes interactive applications in the site map for search engines | | | x
+
+TODO: Make explicit that interactive applications are intended to be like processing services - ie, containerized stuff - and can be console applications, web applications or remote desktop applications (ie, things that open a port you talk to and which may have a URL that can be embedded in the UI).
 
 |===

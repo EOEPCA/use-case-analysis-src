@@ -12,7 +12,7 @@
 | Catalogue can refuse access to some or all product information based on the user and resource (eg, show summary or search result but not allow data access or visualization) | x | | x
 | Catalogue contains, for each product, detailed metadata, identifiers of required T&Cs and costing data (licence costs, data to estimate data sizes/processing times) | | | x
 | EP can store and return text and metadata for resource T&Cs | | | x
-| EP permits authorized users to add and update T&C text and metadata | | x
+| EP permits authorized users to add and update T&C text and metadata | | | x
 | EP permits authorized users to update resource access rules and settings (licences required, descriptions, costing data, etc) | | | x
 | EP can request, record and display acceptance of identified T&Cs by a user (or organisation?) | x | |
 | EP can prevent access to data, processing services and metadata when T&C acceptance is required and not completed and can prompt the user to do this | x | x | x
