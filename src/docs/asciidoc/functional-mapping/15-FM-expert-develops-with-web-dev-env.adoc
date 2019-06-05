@@ -15,11 +15,6 @@
 | Additional libraries can be specified by the Expert User | | x |
 | An Expert User using a development environment can save the code in to the workspace | | x | x
 | An Expert User using a development environment can save data produced in to the workspace | | x | x
-| Development environments and executions will integration with research object functionality, for example by allowing editing within a 'research collection' context or importing/exporting code from one, and by recording code, data, workflow and execution provenance | | x |
-
-
-TODO: Is it common for Jupyter notebooks to be published/shared? I would guess so. Support for this? Must a VM or other costly resource be kept dedicated for as long as its published?
-TODO: Should an 'interactive application' backend functionality be expanded in some way to support the development environment types listed, such as a shared JupyterHub with Kubernetes?
-
+| Development environments and executions will integrate with research object functionality, for example by allowing editing within a 'research collection' context or importing/exporting code from one, and by recording code, data, workflow and execution provenance | | x |
 
 |===

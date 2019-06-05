@@ -9,34 +9,40 @@ Some important notes on the arrangement:
 
 . The home platform always bears the credit risk that its User does not pay. It must still pay the host platform. This is because the home platform is most able to assess the User's creditworthiness and to pursue payment.
 . The host platform always bears the credit risk that the home platform does not pay. It must still pay the Licenser.
+. The home platform bears the exchange-rate risk if the two platforms use different currencies.
+. The payment is 'pushed' by the home platform, not pulled by the host platform. This permits caching and the transfer of commercial processing services between platforms for local execution, but also requires sufficient trust between platforms. Auditing may be required.
 . Either platform can refuse the purchase for risk reasons, but the Licenser cannot.
 . Both platforms will wish to charge for this risk and for processing costs.
-. It requires O(n^2) agreements between platforms for User to be able to use any resource. Licensers may need to publish on multiple platforms if an inadequate network is achieved.
+. It requires O(n^2) agreements between platforms for any User to be able to use any Resource. Licensers may need to publish on multiple platforms if an inadequate network is achieved.
 
 
 '''
 
-. Licenser publishes a commercially licenced resource via the host platform (his home platform) and configures pricing information.
-. User accesses this resource using his home platform. The estimated costs presented include licensing costs and platform fees and he is required to agree to the terms of the license.
-. The home platform authorizes a debit to the User's account (a debt to be later owed by the User to the home platform), after assessing creditworthiness and fraud risk and 'blocking' some available credit.
-. The home platform checks that a contract between it and the host platform is in place and in good standing.
-. The home platform makes a request to the host platform to authorize payment (a debt owed by the home platform to the host platform).
-. The host platform checks that a contract between it and the home platform is in place and in good standing.
-. The host platform returns an identifier for this access to the home platform.
-. The home platform proceeds with data access (which may involve delegation to other platforms). The access identifier is passed along.
-. The host platform receives a request for data access or processing and checks that the access identifier and user ID are correct and unused.
-. Processing or data transfer occurs.
-. The host platform credits the Licenser's account.
-. The host platform issues a request for settlement to the home platform and records a debit in the home platform's account with the host platform.
-. The home platform records the debit in the User's account as a complete purchase.
+. Licenser publishes a commercially licenced resource via the host platform (his home platform) and configures pricing information in the host platform's currency.
+. User begins access to this resource using his home platform. Any estimated costs presented include licensing costs and platform fees and he is required to agree to the terms of the license (which includes the pricing)
+. Immediately prior to access occurring the home platform authorizes an inter-platform debt:
+  .. The home platform checks that a contract between it and the host platform is in place and in good standing.
+  .. A debit to the User's account (a debt to be later owed by the User to the home platform) is authorized by the home platform, after assessing creditworthiness and fraud risk and optionally 'blocking' some available credit.
+  .. The home platform makes a request to the host platform to authorize payment (a debt later owed by the home platform to the host platform).
+  .. The host platform checks that a contract between it and the home platform is in place and in good standing.
+  .. The host platform authorizes a debit to the home platform's account with it.
+. The home platform proceeds with Resource access (which may involve delegation to other platforms, transfer of data or only locally cached resources). Inter-platform requests supporting this may be refused by the host platform if the user identified does not have sufficient authorized payments or a fixed-price licence.
+. The home platform reports Resource use to the host platform and the true cost is confirmed (which should be in line with the pricing but takes in to account repeat access - eg, repeated use of a satellite image for which a licence only needs to be bought once), clearing part of the authorized payment.
+. The home platform ensures that further authorizations are obtained or access is blocked if the amount authorized is exhausted.
+. The host platform credits the Licenser's account as the payment is cleared.
+. The home platform records the debit in the User's account.
+. The platforms later reconcile and settle payments, transferring a net amount through a manual or external process.
 
+
+[[aflow-mediated-billing-time-based-licence, Time-based or Unlimited Licences]]
+.Alternative Flow: Time-based or Unlimited Licences
+
+Instead of depending on use, the licence to use a Resource may be a fixed price for a certain time or be perpetual (like a traditional software purchase). In this case there is no need to delay clearing payment until after resource access has occurred. The User can request a licence and the billing account is updated immediately. Access to the Resource is then possible across the whole federation.
 
 [[aflow-mediated-billing-direct-to-host, Direct Payment via Host Platform Account]]
 .Alternative Flow: Direct Payment via Host Platform Account
 
-Instead of buying a licence using the home platform a User may have bought or buy a licence through a User account
-at the host platform. This is possible even if no inter-platform payment agreement is operational between the two
-platforms.
+Instead of buying a licence using the home platform a User may have bought or buy a licence through a User account at the host platform. This is possible even if no inter-platform payment agreement is operational between the two platforms. However, this only works if the price is fixed (such as a time-based or unlimited licence).
 
 .. EP determines that the User cannot buy access via the home platform but can do so via the host platform
 .. EP provides a link to the host platform to do this

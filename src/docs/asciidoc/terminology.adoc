@@ -109,4 +109,7 @@ The following terms are used in the use case descriptions.
 | Licenser
 | A copyright owner or agent authorized to issue licences for access to data or processing services, typically on commercial terms
 
+| Resource
+| A entity, such as a Product, Processing Service or Interactive Application, which is of interest to a user, is indexed in a catalogue and can be returned as a single meaningful search result
+
 |===

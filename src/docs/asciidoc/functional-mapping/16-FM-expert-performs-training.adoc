@@ -14,5 +14,6 @@
 | The platform can charge the User's account for course costs as defined by the course publisher, and can credit the publisher's account as appropriate | | | x
 | A Consumer can access course content for courses previously joined | | | x
 | A Consumer can view live video streams (however, it is not a requirement that they be streamed from the platform and not an external provider) | | | x
+| A Consumer is billed for courses via his account according to prices set by its publisher (which may be zero) | | | x
 
 |===

@@ -5,33 +5,24 @@
 |===
 | Platform Function | UM | P&C | RM
 
-| Platform contains a searchable catalogue of interactive applications searchable using free text and facets | | | x
-| Platform can perform federated search of interactive applications, also using free text and facets | | | x
-| EP provides a browser-based UI for performing interactive application searches and viewing results | | | x
-| Catalogue can filter or mark results based on user account data (eg, licences purchased, commercial vs academic user) and interactive application access rules / ownership | x | | x
-| Catalogue can refuse access to some or all interactive application information based on the user and resource (eg, show summary or search result but not detailed manual) | x | | x
-| Catalogue contains and EP can display, for each application, detailed metadata, documentation, required T&Cs and costing data (licence costs, data to estimate data sizes/processing times, special requirements (eg GPUs)) | | | x
-| EP can store and return text and metadata for application T&Cs | | | x
-| EP permits authorized users to add and update T&C text and metadata | | | x
-| EP permits authorized users to update application access rules and settings (licences required, descriptions, costing data, etc) | | | x
-| EP can request, record and display acceptance of identified T&Cs by a user (or organisation?) | x | |
-| EP can prevent access to applications and metadata when T&C acceptance is required and not completed and can prompt the user to do this | x | x | x
-| EP can stop applications if quotas, budgets or credit-control constraints are reached | | x |
-| EP can prevent applications from accessing input data when data T&C acceptance is required and not completed and can prompt the user to do this | x | x | x
-| EP provides a 'user workspace' and can record identifiers of 'saved' applications and settings chosen | | | x
-| Consumer can use a data search to find compatible input data for an interactive application, if required by the application | | | x
-| Consumer can use their workspace saved data to specify data for an interactive application | | | x
+| Interactive Applications have Resource functionality | | | x
+| An Interactive Application may require a dedicated VM (or multiple VMs) or other cloud resources which run for the length of an Interactive Application session | | x |
+| If an Interactive Application uses a dedicated VM then it can include a GUI environment (eg X Windows) which the user interacts with remotely (eg using remote desktop or VNC) | | x |
+| An Interactive Application can provide or consist entirely of a web app (which may be a one-page JavaScript app+API, may be server-side generated or may require no server-side resources at all except for static files and access to the platform API) | | x | x
+| If the application has a web app then the platform UI will facilitate the display of this app (eg by providing a link and/or allowing it to be used embedded in the portal UI)| | x | x
+| An interactive application may open ports (eg, an ssh or HTTP port) so that a user can interact with it using a CLI/console-like interface or using a client application | | x |
+| An interactive application can access the platform APIs (eg to run Processing Services) under the delegated credentials of the Consumer | x | x |
+| The catalogue contains costing data for Interactive Applications (eg, licence costs, size of dedicated VMs required) | | | x
+| The EP can cost interactive application use, if possible and appropriate to the application (eg, price per hour) | | x | x
+| The EP can stop applications if quotas, budgets or credit-control constraints are reached | | x |
+| A Consumer can use a data search to find compatible input data for an interactive application, if required by the application | | | x
+| A Consumer can use their workspace saved data to specify data for an interactive application | | | x
 | An interactive application can request data and/or processing as required by its functionality | | x |
-| EP can cost interactive application use (which may involve estimating data size, processing time and licencing costs) | | x | x
-| Consumer can use an interactive application in a web browser | | x |
-| Consumer can save screenshots and other outputs from an application to the workspace | | x | x
-| Consumer can download screenshots and other outputs from an application | | x |
-| User's billing account is updated as the application is used | | x |
-| Consumer can publish application output data to the catalogue, after entering all required metadata that isn't supplied by the application or its output file | | x | x
-| Consumer can specify licences and access restrictions for the published application outputs (which will apply in addition to restrictions on required input data) | | | x
-| Consumer can resume an earlier interactive application 'session' by choosing it from a list | | x | x
-| EP includes interactive applications in the site map for search engines | | | x
-
-TODO: Make explicit that interactive applications are intended to be like processing services - ie, containerized stuff - and can be console applications, web applications or remote desktop applications (ie, things that open a port you talk to and which may have a URL that can be embedded in the UI).
+| A Consumer can save screenshots and other outputs from an application to the workspace as appropriate to the application | | x | x
+| A Consumer can download screenshots and other outputs from an application | | x |
+| A Consumer's billing account is updated as the application is used | | x |
+| A Consumer can publish application output data to the catalogue just as any other data from the workspace can be published as a Product | | x | x
+| A Consumer can resume an earlier interactive application 'session' by choosing it from a list | | x | x
+| A Consumer can terminate an Interactive Application session | | x |
 
 |===

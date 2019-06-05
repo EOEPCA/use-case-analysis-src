@@ -1,8 +1,7 @@
 
 = Expert user builds new processing service
 
-This use-case is linked to 'Expert develops with interactive development environment'
-and may rely on some of its functionality.
+This use-case is linked to 'Expert develops with interactive development environment' and may rely on some of its functionality.
 
 [cols="<.^85,^.^5,^.^5,^.^5"]
 |===
@@ -16,7 +15,5 @@ and may rely on some of its functionality.
 | An Expert User can specify processing service documentation and metadata, including information on its inputs and outpus to assist in building processing chains | | | x
 | The platform can perform checks on processing chains being published to ensure that they're valid and comply with platform requirements | | x |
 | The platform can understand processing service versions/releases, present information about releases to users and optionally notify users when a processing service is updated | | | x
-
-TODO: Add/Merge requirements on publish permissions, T&Cs, etc
 
 |===

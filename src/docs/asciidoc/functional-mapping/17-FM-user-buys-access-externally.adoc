@@ -4,12 +4,10 @@
 |===
 | Platform Function | UM | P&C | RM
 
-| A Licenser who has published resources in the catalogue on a commercial basis can specify an API endpoint which will be contacted to authorize access to those resources or can specify a list of permitted user IDs | x | | x
-| The platform can restrict use of a resource based on this API endpoint, including time or volume limits after which access must be re-authorized | x | x | x
-| The platform can report use of resources to their Licensers via API for billing purposes | | | x
-
-
-TODO: Consider how to reuse other authentication infrastructure, eg oAuth
-TODO: Do we really need to report to Licensers?
+| A Licenser who has published Resources in the catalogue on a commercial basis can specify an API endpoint which will be contacted to authorize access to those Resources or can specify a list of permitted user IDs | x | | x
+| The platform can restrict use of a Resource based on this API endpoint, including time or volume limits after which access must be re-authorized | x | x | x
+| The platform can report use of resources to their Licensers for billing purposes | | | x
+| A Licenser can specify a URL that prospective users will be shown so that they can buy licences | | | x
+| The Licenser's sales site can use an authentication protocol (such as OpenID Connect) to authenticate buyers using their EP credentials, and also to avoid a need to log in for users already logged in to the EP | x | | x
 
 |===
