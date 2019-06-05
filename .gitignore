@@ -15,3 +15,6 @@ gradle-app.setting
 
 # File-managers leave these around
 **/.directory
+
+# Editor backup files
+*~
