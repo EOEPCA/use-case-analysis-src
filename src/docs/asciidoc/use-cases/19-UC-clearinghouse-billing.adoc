@@ -16,4 +16,3 @@ Some important notes on the arrangement:
 A clearing house also provides a point where the rules of the system can be established and enforced (eg, a requirement for non-discrimination between platforms) and technical compliance tested. It could also help permit standardization of contracts and terms and reduce the effort required for credit control and audit of participants compared to performing this for all cooperating bilateral pairs.
 
 '''
-
