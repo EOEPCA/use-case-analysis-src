@@ -11,7 +11,7 @@ The following is a list of Reference Documents with a direct bearing on the cont
 a|
 --
 EO Exploitation Platforms - Use Cases, +
-https://eoepca.github.io/use-case-analysis/resources/docs/ESA-EOPSDP-TN-17-049_1.0_EO_Exploitation_Platforms--Use_Cases.pdf[ESA-EOPSDP-TN-17-049]
+https://eoepca.github.io/use-case-analysis/resources/docs/ESA-EOPSDP-TN-17-049_1.0_EO_Exploitation_Platforms%2D%2DUse_Cases.pdf[ESA-EOPSDP-TN-17-049]
 --
 a|
 --
@@ -23,7 +23,7 @@ Issue 1.0, +
 a|
 --
 Exploitation Platform - Functional Model, +
-https://eoepca.github.io/use-case-analysis/resources/docs/ESA-EOPSDP-TN-17-050_1.0_Exploitation_Platform--Functional_Model.pdf[ESA-EOPSDP-TN-17-050]
+https://eoepca.github.io/use-case-analysis/resources/docs/ESA-EOPSDP-TN-17-050_1.0_Exploitation_Platform%2D%2DFunctional_Model.pdf[ESA-EOPSDP-TN-17-050]
 --
 a|
 --
