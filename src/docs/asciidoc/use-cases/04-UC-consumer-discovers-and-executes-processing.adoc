@@ -33,7 +33,7 @@ image::processing-results.png[width=1000,align="center"]
 . Optionally, the Consumer 'saves' (a reference to) the product to their workspace
 . *Discover and Select Input Data...*
 . Consumer searches the EP catalogue for input data of interest, by specification of spatial/temporal (and other) characteristics
-. Platforms aids the Consumer in selecting input data that is compatible with the chosen processing service
+. The EP aids the Consumer in selecting input data that is compatible with the chosen processing service
 . Consumer selects the input data from their search results and/or from their workspace data
 . The EP checks they are authorised to access the product
 . Consumer views detailed metadata for the selected product

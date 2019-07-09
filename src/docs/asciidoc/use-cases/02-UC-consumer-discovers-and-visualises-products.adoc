@@ -1,7 +1,7 @@
 
 = Consumer discovers and visualises products
 
-As a Consumer I want to search for Products of all types by specification of textual and faceted search criteria. I want to be able to incrementally narrow my search with more criteria clauses. For each Product in the search result I want to get more detailed information that describes the product, its usage terms and costs, and visualise the data graphically. Having discovered a product of interest I may 'save' it to my Workspace, download it, or use it as input to further exploitation activities.
+As a Consumer I want to search for Products of all types by specification of textual and faceted search criteria. I want to be able to incrementally narrow my search with more criteria clauses. The data/products available to the user should not be limited to EO data - it should be possible for the user to augment their processing/analysis with data from other sources such as in-situ sensor data, lidar etc. For each Product in the search result I want to get more detailed information that describes the product, its usage terms and costs, and visualise the data graphically. Having discovered a product of interest I may 'save' it to my Workspace, download it, or use it as input to further exploitation activities.
 
 <<img_productDiscovery>> illustrates discovery of EO data products using the EO Browser system.
 
@@ -18,7 +18,7 @@ image::visualise-product.png[width=1000,align="center"]
 '''
 
 . Consumer logs in on the EP
-. Consumer begins searching for products on the EP. The starting point is the full unfiltered product set that contains commercial/non-commercial EO data and value-added products
+. Consumer begins searching for products on the EP. The starting point is the full unfiltered product set that contains commercial/non-commercial EO data, value-added products and additional data such as in-situ sensor measurements
 . Optionally, the resultset is automatically filtered to include only those collections that the Consumer has right to visualise. _It may be the case that the EP chooses to make these 'unavailable collections' visible to the Consumer to publicise their existence_
 . Consumer filters the resultset by any combination of textual search terms, area of interest, time of interest, selection of collection(s) and selection of product facets
 . Consumer incrementally adjusts their search criteria to refine the filtered resultset
