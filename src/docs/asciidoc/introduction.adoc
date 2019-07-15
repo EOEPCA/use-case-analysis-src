@@ -7,7 +7,11 @@ This document presents the use cases relevant to the Common Architecture.
 
 == Structure of the Document
 
-TBD
+Section 2 - <<mainUseCases>>::
+Provides a description of each use case.
+
+Section 3 - <<mainFunctionalMapping>>::
+Derives high-level functionalities from the use-cases and maps these to _Domain Areas_.
 
 include::reference-docs.adoc[leveloffset=+1]
 

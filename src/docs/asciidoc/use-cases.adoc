@@ -1,4 +1,4 @@
-
+[[mainUseCases]]
 = Use Cases
 
 Each use case is presented in the following sub-sections.

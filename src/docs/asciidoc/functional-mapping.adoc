@@ -1,4 +1,4 @@
-
+[[mainFunctionalMapping]]
 = Functional Mapping
 
 *Identification of functional areas and their mapping to domain areas.*

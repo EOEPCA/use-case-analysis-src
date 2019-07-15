@@ -1,27 +1,38 @@
-= {titletext} ({docnum})
+:doctype: book
 :author: TVUK System Team
 :email: <Eoepca.SystemTeam@telespazio.com>
-:revnumber: v0.7-draft
-:revdate: dd/mm/2019
+:project: EOEPCA
+:project-name: EO Exploitation Platform Common Architecture
+:doc-title: Use Case Analysis Document
+:doc-num: {project}.TN.005
+:revnumber: 0.7-draft
+:revdate: dd.mm.2019
 :revremark: In-Progress Draft
+:category: Technical Note
+:copyrightYear: 2019
 // attributes
 :hardbreaks:
 :sectnums:
-:toc: macro
-:toclevels: 4
+:sectnumlevels: 5
+:toc: left
+:toclevels: 5
+:toc-title: Use Case Analysis
 //:toc-title:
 :description: Use Case Analysis for the Common Architecture
 :keywords: common architecture use case analysis
 :imagesdir: ./images
 :linkcss:
-:stylesheet: stylesheets/eoepca.css
-// custom attributes
-:category: Technical Note
-:project: EOEPCA
-:docnum: {project}.TN.005
-:title: Use Case Analysis
-:titletext: {title}
-:copyrightYear: 2019
+:stylesdir: stylesheets
+:stylesheet: eoepca.css
+:icons: font
+:source-highlighter: coderay
+// pdf
+:pdf-stylesdir: resources/themes
+:pdf-style: eoepca
+:media: screen
+:title-logo-image: image::telespazio.png[top=5%, align=right, pdfwidth=6.5in]
+
+= {doc-title}: {doc-num}
 
 :leveloffset: +1
 
