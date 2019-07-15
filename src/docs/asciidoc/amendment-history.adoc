@@ -10,10 +10,13 @@ The Amendment Record Sheet below records the history and issue status of this do
 |===
 | ISSUE | DATE | REASON
 
-| 0.7 | dd/mm/2019 | In-progress snapshot
-| 0.6 | 09/07/2019 | In-progress snapshot
-| 0.5 | 11/06/2019 | In-progress snapshot
-| 0.4 | 18/04/2019 | Initial draft
+| 0.7 | dd/mm/2019 | ...still in progress...
+| 0.6 | 09/07/2019 | Added some cross-platform compute requests to use cases
+| 0.5 | 11/06/2019 | Initial functional mapping analysis
+| 0.4 | 18/04/2019 | Complete use case descriptions
+| 0.3 | 18/04/2019 | Addition of more use case descriptions
+| 0.2 | 15/02/2019 | First set of use case descriptions
+| 0.1 | 09/01/2019 | Initial draft
 |===
 
 '''
