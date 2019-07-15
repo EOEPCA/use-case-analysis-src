@@ -47,6 +47,7 @@ gitPublish {
             rename 'index.pdf', 'EOEPCA-use-case-analysis.pdf'
         }
         from 'src/README.adoc'
+        from 'CHANGELOG.adoc'
     }
 }
 

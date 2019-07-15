@@ -26,5 +26,6 @@ gitPublish {
             into 'docs'
         }
         from 'src/README.adoc'
+        from 'CHANGELOG.adoc'
     }
 }
