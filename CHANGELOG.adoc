@@ -1,7 +1,7 @@
 = Changelog
 All notable changes to this project will be documented in this file.
 
-== https://github.com/EOEPCA/use-case-analysis-src/compare/v0.6%2E%2E%2Ev0.7[v0.7] - dd.mm.2019
+== https://github.com/EOEPCA/use-case-analysis-src/compare/v0.6%2E%2E%2Ev0.7[v0.7] - 18.07.2019
 
 === Added
 * n/a

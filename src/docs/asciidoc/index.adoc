@@ -5,8 +5,8 @@
 :project-name: EO Exploitation Platform Common Architecture
 :doc-title: Use Case Analysis Document
 :doc-num: {project}.TN.005
-:revnumber: 0.7-draft
-:revdate: dd.mm.2019
+:revnumber: 0.7
+:revdate: 18/07/2019
 :revremark: In-Progress Draft
 :category: Technical Note
 :copyrightYear: 2019
